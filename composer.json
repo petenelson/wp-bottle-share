@@ -1,0 +1,16 @@
+{
+    "name": "petenelson/wp-bottle-share",
+    "description": "WordPress plugin for managing craft beeer bottle shares",
+    "license": "GPL2+",
+    "authors": [
+        {
+            "name": "Pete Nelson",
+            "email": "pete@petenelson.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "wp-coding-standards/wpcs": "dev-master",
+        "phpunit/phpunit": "^4.8"
+    }
+}
