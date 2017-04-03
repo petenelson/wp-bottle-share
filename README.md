@@ -1,4 +1,4 @@
-# REST API Log #
+# WP Bottle Share #
 **Contributors:** gungeekatx  
 **Tags:** beer, craft beer, bottle share  
 **Donate link:** https://github.com/petenelson/wp-bottle-share  
