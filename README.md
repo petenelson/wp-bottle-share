@@ -35,5 +35,5 @@ Yes, this plugin requires your own Untapp API key.
 ## Screenshots ##
 
 ### 1. Sample screenshot ###
-![Sample screenshot](https://raw.githubusercontent.com/petenelson/wp-rest-api-log/master/assets/screenshot-1.png)
+![Sample screenshot](https://raw.githubusercontent.com/petenelson/wp-bottle-share/master/assets/screenshot-1.png)
 
