@@ -1,0 +1,2720 @@
+{
+  "meta": {
+    "code": 200,
+    "response_time": {
+      "time": 0.46,
+      "measure": "seconds"
+    },
+    "init_time": {
+      "time": 0.016,
+      "measure": "seconds"
+    }
+  },
+  "notifications": {
+    "type": "notifications",
+    "unread_count": {
+      "comments": 0,
+      "toasts": 10,
+      "friends": 0,
+      "messages": 0,
+      "news": 6
+    }
+  },
+  "response": {
+    "pagination": {
+      "since_url": "https://api.untappd.com/v4/user/checkins/gungeekatx?min_id=435862143",
+      "next_url": "https://api.untappd.com/v4/user/checkins/gungeekatx?max_id=433006313",
+      "max_id": 433006313
+    },
+    "checkins": {
+      "count": 25,
+      "items": [
+        {
+          "checkin_id": 435862143,
+          "created_at": "Mon, 03 Apr 2017 01:44:15 +0000",
+          "checkin_comment": "",
+          "rating_score": 4.5,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 4744,
+            "beer_name": "Ten FIDY",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-4744_50892_sm.jpeg",
+            "beer_style": "Stout - American Imperial / Double",
+            "beer_slug": "oskar-blues-brewery-ten-fidy",
+            "beer_abv": 10.5,
+            "auth_rating": 4.5,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 956,
+            "brewery_name": "Oskar Blues Brewery",
+            "brewery_slug": "oskar-blues-brewery",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-oskarBlues.jpg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "oskarblues",
+              "facebook": "https://www.facebook.com/OskarBluesCANS/",
+              "instagram": "oskarblues",
+              "url": "http://www.oskarblues.com/"
+            },
+            "location": {
+              "brewery_city": "Longmont",
+              "brewery_state": "CO",
+              "lat": 40.1391,
+              "lng": -105.122
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 1,
+            "items": [
+              {
+                "badge_id": 11547,
+                "user_badge_id": 182089744,
+                "badge_name": "NC Beer Month - April (2017)",
+                "badge_description": "It’s April and that means one thing: NC Beer Month is back! An annual celebration of the unique flavors of North Carolina craft brews filled with events and beer-related travel deals throughout the month. Find out more at <a href=\"http://ncbeermonth.com\" rel=\"link-out\">http://ncbeermonth.com</a>. Cheers!\r",
+                "created_at": "Mon, 03 Apr 2017 01:44:16 +0000",
+                "badge_image": {
+                  "sm": "https://untappd.akamaized.net/badges/bdg_NCBeerMonth2017_sm.jpg",
+                  "md": "https://untappd.akamaized.net/badges/bdg_NCBeerMonth2017_md.jpg",
+                  "lg": "https://untappd.akamaized.net/badges/bdg_NCBeerMonth2017_lg.jpg"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "checkin_id": 435861834,
+          "created_at": "Mon, 03 Apr 2017 01:43:26 +0000",
+          "checkin_comment": "",
+          "rating_score": 3.75,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 406754,
+            "beer_name": "Strawberries 'n Honey",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-406754_95f3c_sm.jpeg",
+            "beer_style": "Mead",
+            "beer_slug": "meadery-of-the-rockies-strawberries-n-honey",
+            "beer_abv": 12,
+            "auth_rating": 3.75,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 8014,
+            "brewery_name": "Meadery of the Rockies",
+            "brewery_slug": "meadery-of-the-rockies",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-MeaderyoftheRockies_8014.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "",
+              "facebook": "https://www.facebook.com/MeaderyRockies",
+              "instagram": "",
+              "url": "http://www.meaderyoftherockies.com/"
+            },
+            "location": {
+              "brewery_city": "Palisade",
+              "brewery_state": "CO",
+              "lat": 39.1055,
+              "lng": -108.366
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 435800104,
+          "created_at": "Sun, 02 Apr 2017 23:31:31 +0000",
+          "checkin_comment": "",
+          "rating_score": 4,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 899673,
+            "beer_name": "Double Tap",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-899673_eef8f_sm.jpeg",
+            "beer_style": "IPA - Imperial / Double",
+            "beer_slug": "infamous-brewing-company-double-tap",
+            "beer_abv": 10.5,
+            "auth_rating": 4,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 38839,
+            "brewery_name": "Infamous Brewing Company",
+            "brewery_slug": "infamous-brewing-company",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-infamousbrewingcompany_38839.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "infamousbrewing",
+              "facebook": "http://www.facebook.com/infamousbrewing",
+              "instagram": "infamousbrewing",
+              "url": "http://www.InfamousBrewing.com"
+            },
+            "location": {
+              "brewery_city": "Austin",
+              "brewery_state": "TX",
+              "lat": 30.4068,
+              "lng": -97.9259
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 435798664,
+          "created_at": "Sun, 02 Apr 2017 23:28:49 +0000",
+          "checkin_comment": "",
+          "rating_score": 4.25,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 1996612,
+            "beer_name": "Stone Enjoy By 04.20.17",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1996612_efaff_sm.jpeg",
+            "beer_style": "IPA - Imperial / Double",
+            "beer_slug": "stone-brewing-stone-enjoy-by-04-20-17",
+            "beer_abv": 9.4,
+            "auth_rating": 4.25,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 1204,
+            "brewery_name": "Stone Brewing",
+            "brewery_slug": "stone-brewing",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-1204_23541.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "StoneBrewingCo",
+              "facebook": "http://www.facebook.com/StoneBrewingCo",
+              "instagram": "StoneBrewingCo",
+              "url": "http://www.stonebrewing.com/"
+            },
+            "location": {
+              "brewery_city": "Escondido",
+              "brewery_state": "CA",
+              "lat": 33.1157,
+              "lng": -117.12
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 435649435,
+          "created_at": "Sun, 02 Apr 2017 19:12:56 +0000",
+          "checkin_comment": "",
+          "rating_score": 4.5,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 2008180,
+            "beer_name": "Heavy Machinery Double IPA (2017)",
+            "beer_label": "https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_style": "IPA - Imperial / Double",
+            "beer_slug": "austin-beerworks-heavy-machinery-double-ipa-2017",
+            "beer_abv": 10,
+            "auth_rating": 4.5,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 11819,
+            "brewery_name": "Austin Beerworks",
+            "brewery_slug": "austin-beerworks",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-austinbeerworks_11819.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "AustinBeerworks",
+              "facebook": "http://www.facebook.com/AustinBeerworks",
+              "instagram": "AustinBeerworks",
+              "url": "http://www.austinbeerworks.com"
+            },
+            "location": {
+              "brewery_city": "Austin",
+              "brewery_state": "TX",
+              "lat": 30.3798,
+              "lng": -97.7302
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 435455588,
+          "created_at": "Sun, 02 Apr 2017 03:52:46 +0000",
+          "checkin_comment": "",
+          "rating_score": 4.25,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 1996612,
+            "beer_name": "Stone Enjoy By 04.20.17",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1996612_efaff_sm.jpeg",
+            "beer_style": "IPA - Imperial / Double",
+            "beer_slug": "stone-brewing-stone-enjoy-by-04-20-17",
+            "beer_abv": 9.4,
+            "auth_rating": 4.25,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 1204,
+            "brewery_name": "Stone Brewing",
+            "brewery_slug": "stone-brewing",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-1204_23541.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "StoneBrewingCo",
+              "facebook": "http://www.facebook.com/StoneBrewingCo",
+              "instagram": "StoneBrewingCo",
+              "url": "http://www.stonebrewing.com/"
+            },
+            "location": {
+              "brewery_city": "Escondido",
+              "brewery_state": "CA",
+              "lat": 33.1157,
+              "lng": -117.12
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 1,
+            "count": 1,
+            "auth_toast": false,
+            "items": [
+              {
+                "uid": 1312805,
+                "user": {
+                  "uid": 1312805,
+                  "user_name": "OandJ",
+                  "first_name": "Jake",
+                  "last_name": "& Olivia",
+                  "bio": "",
+                  "location": "",
+                  "user_avatar": "https://untappd.akamaized.net/profile/d3c470dbf5493158e06854892c2c0af8_100x100.jpg",
+                  "account_type": "user",
+                  "venue_details": [],
+                  "brewery_details": [],
+                  "user_link": "https://untappd.com/user/OandJ"
+                },
+                "like_id": 356448358,
+                "like_owner": false,
+                "created_at": "Sun, 02 Apr 2017 15:51:41 +0000"
+              }
+            ]
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 435428137,
+          "created_at": "Sun, 02 Apr 2017 02:56:27 +0000",
+          "checkin_comment": "",
+          "rating_score": 4.5,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 327936,
+            "beer_name": "Yellow Rose",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-327936_2c809_sm.jpeg",
+            "beer_style": "IPA - American",
+            "beer_slug": "lone-pint-brewery-yellow-rose",
+            "beer_abv": 6.8,
+            "auth_rating": 4.5,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 47425,
+            "brewery_name": "Lone Pint Brewery",
+            "brewery_slug": "lone-pint-brewery",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-lonepintbrewery_47425.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "lonepint",
+              "facebook": "http://www.facebook.com/lone.brewery",
+              "instagram": "",
+              "url": "http://www.lonepint.com"
+            },
+            "location": {
+              "brewery_city": "Magnolia",
+              "brewery_state": "TX",
+              "lat": 30.2089,
+              "lng": -95.7514
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 1,
+            "count": 1,
+            "auth_toast": false,
+            "items": [
+              {
+                "uid": 627307,
+                "user": {
+                  "uid": 627307,
+                  "user_name": "Saiwyn",
+                  "first_name": "Travis",
+                  "last_name": "Williams",
+                  "bio": "",
+                  "location": "",
+                  "user_avatar": "https://untappd.akamaized.net/profile/bd42fff9985a1298648dea08a762659f_100x100.jpg",
+                  "account_type": "user",
+                  "venue_details": [],
+                  "brewery_details": [],
+                  "user_link": "https://untappd.com/user/Saiwyn"
+                },
+                "like_id": 356714363,
+                "like_owner": false,
+                "created_at": "Mon, 03 Apr 2017 00:42:20 +0000"
+              }
+            ]
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 435401705,
+          "created_at": "Sun, 02 Apr 2017 02:16:55 +0000",
+          "checkin_comment": "",
+          "rating_score": 4.25,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 4133,
+            "beer_name": "Two Hearted Ale",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-4133_13fdb_sm.jpeg",
+            "beer_style": "IPA - American",
+            "beer_slug": "bell-s-brewery-two-hearted-ale",
+            "beer_abv": 7,
+            "auth_rating": 4.25,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 2507,
+            "brewery_name": "Bell's Brewery",
+            "brewery_slug": "bell-s-brewery",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-2507_ad044.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "BellsBrewery",
+              "facebook": "https://www.facebook.com/bellsbeer/",
+              "instagram": "bellsbrewery",
+              "url": "http://www.bellsbeer.com/"
+            },
+            "location": {
+              "brewery_city": "Galesburg",
+              "brewery_state": "MI",
+              "lat": 42.2917,
+              "lng": -85.5872
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 435379090,
+          "created_at": "Sun, 02 Apr 2017 01:47:51 +0000",
+          "checkin_comment": "",
+          "rating_score": 4.25,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 1996612,
+            "beer_name": "Stone Enjoy By 04.20.17",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1996612_efaff_sm.jpeg",
+            "beer_style": "IPA - Imperial / Double",
+            "beer_slug": "stone-brewing-stone-enjoy-by-04-20-17",
+            "beer_abv": 9.4,
+            "auth_rating": 4.25,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 1204,
+            "brewery_name": "Stone Brewing",
+            "brewery_slug": "stone-brewing",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-1204_23541.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "StoneBrewingCo",
+              "facebook": "http://www.facebook.com/StoneBrewingCo",
+              "instagram": "StoneBrewingCo",
+              "url": "http://www.stonebrewing.com/"
+            },
+            "location": {
+              "brewery_city": "Escondido",
+              "brewery_state": "CA",
+              "lat": 33.1157,
+              "lng": -117.12
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 435056276,
+          "created_at": "Sat, 01 Apr 2017 20:28:15 +0000",
+          "checkin_comment": "",
+          "rating_score": 3.75,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 1965774,
+            "beer_name": "Foreign Extra Stout",
+            "beer_label": "https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_style": "Stout - Other",
+            "beer_slug": "oasis-texas-brewing-company-foreign-extra-stout",
+            "beer_abv": 8.2,
+            "auth_rating": 3.75,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 128836,
+            "brewery_name": "Oasis Texas Brewing Company",
+            "brewery_slug": "oasis-texas-brewing-company",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-128836_ae15a.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "OasisTXBrewing",
+              "facebook": "https://www.facebook.com/oasistexasbrewingcompany",
+              "instagram": "",
+              "url": "oasistexasbrewingcompany.com"
+            },
+            "location": {
+              "brewery_city": "Austin",
+              "brewery_state": "TX",
+              "lat": 30.4059,
+              "lng": -97.874
+            },
+            "brewery_active": 1
+          },
+          "venue": {
+            "venue_id": 1759111,
+            "venue_name": "Oasis Texas Brewing Company",
+            "venue_slug": "oasis-texas-brewing-company",
+            "primary_category": "Nightlife Spot",
+            "parent_category_id": "4d4b7105d754a06376d81259",
+            "categories": {
+              "count": 1,
+              "items": [
+                {
+                  "category_name": "Brewery",
+                  "category_id": "50327c8591d4c4b30a586d5d",
+                  "is_primary": true
+                }
+              ]
+            },
+            "location": {
+              "venue_address": "6550 Comanche Trl",
+              "venue_city": "Austin",
+              "venue_state": "TX",
+              "venue_country": "United States",
+              "lat": 30.4057,
+              "lng": -97.8743
+            },
+            "contact": {
+              "twitter": "@oasistxbrewing",
+              "venue_url": "http://otxbc.com"
+            },
+            "public_venue": true,
+            "foursquare": {
+              "foursquare_id": "53a5c134498ebd730dbed28a",
+              "foursquare_url": "http://4sq.com/1poY5A3"
+            },
+            "venue_icon": {
+              "sm": "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_64.png",
+              "md": "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png",
+              "lg": "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"
+            },
+            "is_verified": false
+          },
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 1,
+            "count": 1,
+            "auth_toast": false,
+            "items": [
+              {
+                "uid": 627307,
+                "user": {
+                  "uid": 627307,
+                  "user_name": "Saiwyn",
+                  "first_name": "Travis",
+                  "last_name": "Williams",
+                  "bio": "",
+                  "location": "",
+                  "user_avatar": "https://untappd.akamaized.net/profile/bd42fff9985a1298648dea08a762659f_100x100.jpg",
+                  "account_type": "user",
+                  "venue_details": [],
+                  "brewery_details": [],
+                  "user_link": "https://untappd.com/user/Saiwyn"
+                },
+                "like_id": 355966884,
+                "like_owner": false,
+                "created_at": "Sat, 01 Apr 2017 20:29:03 +0000"
+              }
+            ]
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 435020989,
+          "created_at": "Sat, 01 Apr 2017 19:55:03 +0000",
+          "checkin_comment": "",
+          "rating_score": 3.75,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 1948765,
+            "beer_name": "Cosmic Flotsam",
+            "beer_label": "https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_style": "IPA - American",
+            "beer_slug": "oasis-texas-brewing-company-cosmic-flotsam",
+            "beer_abv": 6.5,
+            "auth_rating": 3.75,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 128836,
+            "brewery_name": "Oasis Texas Brewing Company",
+            "brewery_slug": "oasis-texas-brewing-company",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-128836_ae15a.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "OasisTXBrewing",
+              "facebook": "https://www.facebook.com/oasistexasbrewingcompany",
+              "instagram": "",
+              "url": "oasistexasbrewingcompany.com"
+            },
+            "location": {
+              "brewery_city": "Austin",
+              "brewery_state": "TX",
+              "lat": 30.4059,
+              "lng": -97.874
+            },
+            "brewery_active": 1
+          },
+          "venue": {
+            "venue_id": 1759111,
+            "venue_name": "Oasis Texas Brewing Company",
+            "venue_slug": "oasis-texas-brewing-company",
+            "primary_category": "Nightlife Spot",
+            "parent_category_id": "4d4b7105d754a06376d81259",
+            "categories": {
+              "count": 1,
+              "items": [
+                {
+                  "category_name": "Brewery",
+                  "category_id": "50327c8591d4c4b30a586d5d",
+                  "is_primary": true
+                }
+              ]
+            },
+            "location": {
+              "venue_address": "6550 Comanche Trl",
+              "venue_city": "Austin",
+              "venue_state": "TX",
+              "venue_country": "United States",
+              "lat": 30.4057,
+              "lng": -97.8743
+            },
+            "contact": {
+              "twitter": "@oasistxbrewing",
+              "venue_url": "http://otxbc.com"
+            },
+            "public_venue": true,
+            "foursquare": {
+              "foursquare_id": "53a5c134498ebd730dbed28a",
+              "foursquare_url": "http://4sq.com/1poY5A3"
+            },
+            "venue_icon": {
+              "sm": "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_64.png",
+              "md": "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png",
+              "lg": "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"
+            },
+            "is_verified": false
+          },
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 434985793,
+          "created_at": "Sat, 01 Apr 2017 19:21:14 +0000",
+          "checkin_comment": "",
+          "rating_score": 3.75,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 2013722,
+            "beer_name": "Bryerish Stout",
+            "beer_label": "https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_style": "Stout - Irish Dry",
+            "beer_slug": "oasis-texas-brewing-company-bryerish-stout",
+            "beer_abv": 4.5,
+            "auth_rating": 3.75,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 128836,
+            "brewery_name": "Oasis Texas Brewing Company",
+            "brewery_slug": "oasis-texas-brewing-company",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-128836_ae15a.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "OasisTXBrewing",
+              "facebook": "https://www.facebook.com/oasistexasbrewingcompany",
+              "instagram": "",
+              "url": "oasistexasbrewingcompany.com"
+            },
+            "location": {
+              "brewery_city": "Austin",
+              "brewery_state": "TX",
+              "lat": 30.4059,
+              "lng": -97.874
+            },
+            "brewery_active": 1
+          },
+          "venue": {
+            "venue_id": 1759111,
+            "venue_name": "Oasis Texas Brewing Company",
+            "venue_slug": "oasis-texas-brewing-company",
+            "primary_category": "Nightlife Spot",
+            "parent_category_id": "4d4b7105d754a06376d81259",
+            "categories": {
+              "count": 1,
+              "items": [
+                {
+                  "category_name": "Brewery",
+                  "category_id": "50327c8591d4c4b30a586d5d",
+                  "is_primary": true
+                }
+              ]
+            },
+            "location": {
+              "venue_address": "6550 Comanche Trl",
+              "venue_city": "Austin",
+              "venue_state": "TX",
+              "venue_country": "United States",
+              "lat": 30.4057,
+              "lng": -97.8743
+            },
+            "contact": {
+              "twitter": "@oasistxbrewing",
+              "venue_url": "http://otxbc.com"
+            },
+            "public_venue": true,
+            "foursquare": {
+              "foursquare_id": "53a5c134498ebd730dbed28a",
+              "foursquare_url": "http://4sq.com/1poY5A3"
+            },
+            "venue_icon": {
+              "sm": "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_64.png",
+              "md": "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png",
+              "lg": "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"
+            },
+            "is_verified": false
+          },
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 1,
+            "items": [
+              {
+                "badge_id": 5972,
+                "user_badge_id": 181641697,
+                "badge_name": "Riding Steady (Level 10)",
+                "badge_description": "Want to enjoy a day of brews, but need to keep your wits sharp? There are plenty of delicious brews under 5% for you to sip on throughout the day. That's 50 different beers with an ABV of 5% and lower. Try 5 more for Level 11!",
+                "created_at": "Sat, 01 Apr 2017 19:21:23 +0000",
+                "badge_image": {
+                  "sm": "https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg",
+                  "md": "https://untappd.akamaized.net/badges/bdg_RidingSteady_md.jpg",
+                  "lg": "https://untappd.akamaized.net/badges/bdg_RidingSteady_lg.jpg"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "checkin_id": 434684183,
+          "created_at": "Sat, 01 Apr 2017 02:57:44 +0000",
+          "checkin_comment": "",
+          "rating_score": 4,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 899673,
+            "beer_name": "Double Tap",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-899673_eef8f_sm.jpeg",
+            "beer_style": "IPA - Imperial / Double",
+            "beer_slug": "infamous-brewing-company-double-tap",
+            "beer_abv": 10.5,
+            "auth_rating": 4,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 38839,
+            "brewery_name": "Infamous Brewing Company",
+            "brewery_slug": "infamous-brewing-company",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-infamousbrewingcompany_38839.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "infamousbrewing",
+              "facebook": "http://www.facebook.com/infamousbrewing",
+              "instagram": "infamousbrewing",
+              "url": "http://www.InfamousBrewing.com"
+            },
+            "location": {
+              "brewery_city": "Austin",
+              "brewery_state": "TX",
+              "lat": 30.4068,
+              "lng": -97.9259
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 1,
+            "count": 1,
+            "auth_toast": false,
+            "items": [
+              {
+                "uid": 1872727,
+                "user": {
+                  "uid": 1872727,
+                  "user_name": "sarahchristine",
+                  "first_name": "sarah",
+                  "last_name": "williams",
+                  "bio": "",
+                  "location": "",
+                  "user_avatar": "https://untappd.akamaized.net/profile/24524a5fa16e563af0150c90969e48e5_100x100.jpg",
+                  "account_type": "user",
+                  "venue_details": [],
+                  "brewery_details": [],
+                  "user_link": "https://untappd.com/user/sarahchristine"
+                },
+                "like_id": 355955691,
+                "like_owner": false,
+                "created_at": "Sat, 01 Apr 2017 20:16:08 +0000"
+              }
+            ]
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 434661757,
+          "created_at": "Sat, 01 Apr 2017 02:21:42 +0000",
+          "checkin_comment": "",
+          "rating_score": 4,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 899673,
+            "beer_name": "Double Tap",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-899673_eef8f_sm.jpeg",
+            "beer_style": "IPA - Imperial / Double",
+            "beer_slug": "infamous-brewing-company-double-tap",
+            "beer_abv": 10.5,
+            "auth_rating": 4,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 38839,
+            "brewery_name": "Infamous Brewing Company",
+            "brewery_slug": "infamous-brewing-company",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-infamousbrewingcompany_38839.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "infamousbrewing",
+              "facebook": "http://www.facebook.com/infamousbrewing",
+              "instagram": "infamousbrewing",
+              "url": "http://www.InfamousBrewing.com"
+            },
+            "location": {
+              "brewery_city": "Austin",
+              "brewery_state": "TX",
+              "lat": 30.4068,
+              "lng": -97.9259
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 434615798,
+          "created_at": "Sat, 01 Apr 2017 01:22:09 +0000",
+          "checkin_comment": "",
+          "rating_score": 4.5,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 2008180,
+            "beer_name": "Heavy Machinery Double IPA (2017)",
+            "beer_label": "https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_style": "IPA - Imperial / Double",
+            "beer_slug": "austin-beerworks-heavy-machinery-double-ipa-2017",
+            "beer_abv": 10,
+            "auth_rating": 4.5,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 11819,
+            "brewery_name": "Austin Beerworks",
+            "brewery_slug": "austin-beerworks",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-austinbeerworks_11819.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "AustinBeerworks",
+              "facebook": "http://www.facebook.com/AustinBeerworks",
+              "instagram": "AustinBeerworks",
+              "url": "http://www.austinbeerworks.com"
+            },
+            "location": {
+              "brewery_city": "Austin",
+              "brewery_state": "TX",
+              "lat": 30.3798,
+              "lng": -97.7302
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 1,
+            "count": 1,
+            "auth_toast": false,
+            "items": [
+              {
+                "uid": 1046751,
+                "user": {
+                  "uid": 1046751,
+                  "user_name": "aagibbs",
+                  "first_name": "Aaron",
+                  "last_name": "Gibbs",
+                  "bio": "All styles of beer are the cut of my jib.",
+                  "location": "Austin, TX",
+                  "user_avatar": "https://untappd.akamaized.net/profile/d5e64fdaa901dced0c9a6db2c0d82c04_100x100.jpg",
+                  "account_type": "user",
+                  "venue_details": [],
+                  "brewery_details": [],
+                  "user_link": "https://untappd.com/user/aagibbs"
+                },
+                "like_id": 355564870,
+                "like_owner": false,
+                "created_at": "Sat, 01 Apr 2017 01:46:31 +0000"
+              }
+            ]
+          },
+          "media": {
+            "count": 1,
+            "items": [
+              {
+                "photo_id": 116489187,
+                "photo": {
+                  "photo_img_sm": "https://untappd.akamaized.net/photo/2017_04_01/82105599a64f3539f15b0ac204a16d85_100x100.jpeg",
+                  "photo_img_md": "https://untappd.akamaized.net/photo/2017_04_01/82105599a64f3539f15b0ac204a16d85_320x320.jpeg",
+                  "photo_img_lg": "https://untappd.akamaized.net/photo/2017_04_01/82105599a64f3539f15b0ac204a16d85_640x640.jpeg",
+                  "photo_img_og": "https://untappd.akamaized.net/photo/2017_04_01/82105599a64f3539f15b0ac204a16d85_raw.jpeg"
+                }
+              }
+            ]
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 434614102,
+          "created_at": "Sat, 01 Apr 2017 01:20:09 +0000",
+          "checkin_comment": "",
+          "rating_score": 3.25,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 700389,
+            "beer_name": "Strawberry Hard Apple Cider",
+            "beer_label": "https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png",
+            "beer_style": "Cider",
+            "beer_slug": "cider-brothers-strawberry-hard-apple-cider",
+            "beer_abv": 6.5,
+            "auth_rating": 3.25,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 117258,
+            "brewery_name": "Cider Brothers",
+            "brewery_slug": "cider-brothers",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-117258_88332.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "",
+              "facebook": "",
+              "instagram": "",
+              "url": "www.ciderbrothers.com"
+            },
+            "location": {
+              "brewery_city": "Lodi",
+              "brewery_state": "CA",
+              "lat": 38.1223,
+              "lng": -121.245
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 1,
+            "count": 1,
+            "auth_toast": false,
+            "items": [
+              {
+                "uid": 1046751,
+                "user": {
+                  "uid": 1046751,
+                  "user_name": "aagibbs",
+                  "first_name": "Aaron",
+                  "last_name": "Gibbs",
+                  "bio": "All styles of beer are the cut of my jib.",
+                  "location": "Austin, TX",
+                  "user_avatar": "https://untappd.akamaized.net/profile/d5e64fdaa901dced0c9a6db2c0d82c04_100x100.jpg",
+                  "account_type": "user",
+                  "venue_details": [],
+                  "brewery_details": [],
+                  "user_link": "https://untappd.com/user/aagibbs"
+                },
+                "like_id": 355564922,
+                "like_owner": false,
+                "created_at": "Sat, 01 Apr 2017 01:46:35 +0000"
+              }
+            ]
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 434511873,
+          "created_at": "Fri, 31 Mar 2017 23:23:30 +0000",
+          "checkin_comment": "",
+          "rating_score": 3.5,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 1929083,
+            "beer_name": "Am I Right Or Amarillo",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1929083_d5fb1_sm.jpeg",
+            "beer_style": "IPA - American",
+            "beer_slug": "bell-s-brewery-am-i-right-or-amarillo",
+            "beer_abv": 6,
+            "auth_rating": 3.5,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 2507,
+            "brewery_name": "Bell's Brewery",
+            "brewery_slug": "bell-s-brewery",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-2507_ad044.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "BellsBrewery",
+              "facebook": "https://www.facebook.com/bellsbeer/",
+              "instagram": "bellsbrewery",
+              "url": "http://www.bellsbeer.com/"
+            },
+            "location": {
+              "brewery_city": "Galesburg",
+              "brewery_state": "MI",
+              "lat": 42.2917,
+              "lng": -85.5872
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 1,
+            "count": 1,
+            "auth_toast": false,
+            "items": [
+              {
+                "uid": 1046751,
+                "user": {
+                  "uid": 1046751,
+                  "user_name": "aagibbs",
+                  "first_name": "Aaron",
+                  "last_name": "Gibbs",
+                  "bio": "All styles of beer are the cut of my jib.",
+                  "location": "Austin, TX",
+                  "user_avatar": "https://untappd.akamaized.net/profile/d5e64fdaa901dced0c9a6db2c0d82c04_100x100.jpg",
+                  "account_type": "user",
+                  "venue_details": [],
+                  "brewery_details": [],
+                  "user_link": "https://untappd.com/user/aagibbs"
+                },
+                "like_id": 355566663,
+                "like_owner": false,
+                "created_at": "Sat, 01 Apr 2017 01:49:07 +0000"
+              }
+            ]
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 434482035,
+          "created_at": "Fri, 31 Mar 2017 22:47:41 +0000",
+          "checkin_comment": "",
+          "rating_score": 3.75,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 16581,
+            "beer_name": "Oberon Ale",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-16581_2ac08_sm.jpeg",
+            "beer_style": "Pale Wheat Ale - American",
+            "beer_slug": "bell-s-brewery-oberon-ale",
+            "beer_abv": 5.8,
+            "auth_rating": 3.75,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 2507,
+            "brewery_name": "Bell's Brewery",
+            "brewery_slug": "bell-s-brewery",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-2507_ad044.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "BellsBrewery",
+              "facebook": "https://www.facebook.com/bellsbeer/",
+              "instagram": "bellsbrewery",
+              "url": "http://www.bellsbeer.com/"
+            },
+            "location": {
+              "brewery_city": "Galesburg",
+              "brewery_state": "MI",
+              "lat": 42.2917,
+              "lng": -85.5872
+            },
+            "brewery_active": 1
+          },
+          "venue": [],
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 2,
+            "count": 2,
+            "auth_toast": false,
+            "items": [
+              {
+                "uid": 1046751,
+                "user": {
+                  "uid": 1046751,
+                  "user_name": "aagibbs",
+                  "first_name": "Aaron",
+                  "last_name": "Gibbs",
+                  "bio": "All styles of beer are the cut of my jib.",
+                  "location": "Austin, TX",
+                  "user_avatar": "https://untappd.akamaized.net/profile/d5e64fdaa901dced0c9a6db2c0d82c04_100x100.jpg",
+                  "account_type": "user",
+                  "venue_details": [],
+                  "brewery_details": [],
+                  "user_link": "https://untappd.com/user/aagibbs"
+                },
+                "like_id": 355566759,
+                "like_owner": false,
+                "created_at": "Sat, 01 Apr 2017 01:49:15 +0000"
+              },
+              {
+                "uid": 1312805,
+                "user": {
+                  "uid": 1312805,
+                  "user_name": "OandJ",
+                  "first_name": "Jake",
+                  "last_name": "& Olivia",
+                  "bio": "",
+                  "location": "",
+                  "user_avatar": "https://untappd.akamaized.net/profile/d3c470dbf5493158e06854892c2c0af8_100x100.jpg",
+                  "account_type": "user",
+                  "venue_details": [],
+                  "brewery_details": [],
+                  "user_link": "https://untappd.com/user/OandJ"
+                },
+                "like_id": 355457715,
+                "like_owner": false,
+                "created_at": "Fri, 31 Mar 2017 23:24:18 +0000"
+              }
+            ]
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 1,
+            "items": [
+              {
+                "badge_id": 10596,
+                "user_badge_id": 181377770,
+                "badge_name": "Reach for the Sun: Oberon (2017)",
+                "badge_description": "Oberon is back and that means we survived (OK, Mother Nature may be a little behind, but she’ll catch up). Brewed with our signature house ale yeast, hops, water and malt and without the use of any spices, Oberon is the color and scent of a sunny afternoon. Go ahead, reach for the sun and raise a glass to another great Oberon summer!",
+                "created_at": "Fri, 31 Mar 2017 22:47:41 +0000",
+                "badge_image": {
+                  "sm": "https://untappd.akamaized.net/badges/bdg_OberonUntappdBadge17_sm.jpg",
+                  "md": "https://untappd.akamaized.net/badges/bdg_OberonUntappdBadge17_md.jpg",
+                  "lg": "https://untappd.akamaized.net/badges/bdg_OberonUntappdBadge17_lg.jpg"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "checkin_id": 433115710,
+          "created_at": "Mon, 27 Mar 2017 00:08:35 +0000",
+          "checkin_comment": "",
+          "rating_score": 4.25,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 145448,
+            "beer_name": "Even More Jesus",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-145448_fe40c_sm.jpeg",
+            "beer_style": "Stout - American Imperial / Double",
+            "beer_slug": "evil-twin-brewing-even-more-jesus",
+            "beer_abv": 12,
+            "auth_rating": 4.25,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 3735,
+            "brewery_name": "Evil Twin Brewing",
+            "brewery_slug": "evil-twin-brewing",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-3735_539d4.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "EvilTwinBrewing",
+              "facebook": "http://www.facebook.com/EvilTwinBrewing",
+              "instagram": "eviltwinbrewing",
+              "url": "http://www.eviltwin.dk"
+            },
+            "location": {
+              "brewery_city": "Brooklyn",
+              "brewery_state": "NY",
+              "lat": 40.7089,
+              "lng": -73.9691
+            },
+            "brewery_active": 1
+          },
+          "venue": {
+            "venue_id": 2540586,
+            "venue_name": "109 Burger Joint",
+            "venue_slug": "109-burger-joint",
+            "primary_category": "Food",
+            "parent_category_id": "4d4b7105d754a06374d81259",
+            "categories": {
+              "count": 1,
+              "items": [
+                {
+                  "category_name": "Burger Joint",
+                  "category_id": "4bf58dd8d48988d16c941735",
+                  "is_primary": true
+                }
+              ]
+            },
+            "location": {
+              "venue_address": "646 SW 109th Ave",
+              "venue_city": "Sweetwater",
+              "venue_state": "FL",
+              "venue_country": "United States",
+              "lat": 25.7628,
+              "lng": -80.3727
+            },
+            "contact": {
+              "twitter": "",
+              "venue_url": "http://www.109burgerjoint.com"
+            },
+            "public_venue": true,
+            "foursquare": {
+              "foursquare_id": "54c28534498e1491aa26f5ca",
+              "foursquare_url": "http://4sq.com/1CZvGr4"
+            },
+            "venue_icon": {
+              "sm": "https://ss3.4sqi.net/img/categories_v2/food/burger_bg_64.png",
+              "md": "https://ss3.4sqi.net/img/categories_v2/food/burger_bg_88.png",
+              "lg": "https://ss3.4sqi.net/img/categories_v2/food/burger_bg_88.png"
+            },
+            "is_verified": false
+          },
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 1,
+            "items": [
+              {
+                "photo_id": 115996465,
+                "photo": {
+                  "photo_img_sm": "https://untappd.akamaized.net/photo/2017_03_27/0bdee5d03cdbf5f1e36e85ecca36e02d_100x100.jpeg",
+                  "photo_img_md": "https://untappd.akamaized.net/photo/2017_03_27/0bdee5d03cdbf5f1e36e85ecca36e02d_320x320.jpeg",
+                  "photo_img_lg": "https://untappd.akamaized.net/photo/2017_03_27/0bdee5d03cdbf5f1e36e85ecca36e02d_640x640.jpeg",
+                  "photo_img_og": "https://untappd.akamaized.net/photo/2017_03_27/0bdee5d03cdbf5f1e36e85ecca36e02d_raw.jpeg"
+                }
+              }
+            ]
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 433092544,
+          "created_at": "Sun, 26 Mar 2017 23:19:21 +0000",
+          "checkin_comment": "",
+          "rating_score": 3.75,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 5771,
+            "beer_name": "Maximus",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-5771_1adab_sm.jpeg",
+            "beer_style": "IPA - Imperial / Double",
+            "beer_slug": "lagunitas-brewing-company-maximus",
+            "beer_abv": 8.2,
+            "auth_rating": 3.75,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 765,
+            "brewery_name": "Lagunitas Brewing Company",
+            "brewery_slug": "lagunitas-brewing-company",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-765_b53eb.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "lagunitasbeer",
+              "facebook": "https://www.facebook.com/LagunitasBrewingCo",
+              "instagram": "lagunitasbeer",
+              "url": "http://www.LAGUNITAS.com/"
+            },
+            "location": {
+              "brewery_city": "Petaluma",
+              "brewery_state": "CA",
+              "lat": 38.2724,
+              "lng": -122.662
+            },
+            "brewery_active": 1
+          },
+          "venue": {
+            "venue_id": 2540586,
+            "venue_name": "109 Burger Joint",
+            "venue_slug": "109-burger-joint",
+            "primary_category": "Food",
+            "parent_category_id": "4d4b7105d754a06374d81259",
+            "categories": {
+              "count": 1,
+              "items": [
+                {
+                  "category_name": "Burger Joint",
+                  "category_id": "4bf58dd8d48988d16c941735",
+                  "is_primary": true
+                }
+              ]
+            },
+            "location": {
+              "venue_address": "646 SW 109th Ave",
+              "venue_city": "Sweetwater",
+              "venue_state": "FL",
+              "venue_country": "United States",
+              "lat": 25.7628,
+              "lng": -80.3727
+            },
+            "contact": {
+              "twitter": "",
+              "venue_url": "http://www.109burgerjoint.com"
+            },
+            "public_venue": true,
+            "foursquare": {
+              "foursquare_id": "54c28534498e1491aa26f5ca",
+              "foursquare_url": "http://4sq.com/1CZvGr4"
+            },
+            "venue_icon": {
+              "sm": "https://ss3.4sqi.net/img/categories_v2/food/burger_bg_64.png",
+              "md": "https://ss3.4sqi.net/img/categories_v2/food/burger_bg_88.png",
+              "lg": "https://ss3.4sqi.net/img/categories_v2/food/burger_bg_88.png"
+            },
+            "is_verified": false
+          },
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 1,
+            "items": [
+              {
+                "photo_id": 115989775,
+                "photo": {
+                  "photo_img_sm": "https://untappd.akamaized.net/photo/2017_03_26/1a1dd16d487f1834ec559ba7c0d3e798_100x100.jpeg",
+                  "photo_img_md": "https://untappd.akamaized.net/photo/2017_03_26/1a1dd16d487f1834ec559ba7c0d3e798_320x320.jpeg",
+                  "photo_img_lg": "https://untappd.akamaized.net/photo/2017_03_26/1a1dd16d487f1834ec559ba7c0d3e798_640x640.jpeg",
+                  "photo_img_og": "https://untappd.akamaized.net/photo/2017_03_26/1a1dd16d487f1834ec559ba7c0d3e798_raw.jpeg"
+                }
+              }
+            ]
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 1,
+            "items": [
+              {
+                "badge_id": 5414,
+                "user_badge_id": 180626858,
+                "badge_name": "2X (Level 34)",
+                "badge_description": "When a single isn’t enough, make it a double. Doubling the hops and malts in a recipe results in a higher ABV and can pack quite a boozey punch. That's 170 different beers with the style that contains Imperial / Double in its style name. Try 5 more for Level 35!",
+                "created_at": "Sun, 26 Mar 2017 23:19:23 +0000",
+                "badge_image": {
+                  "sm": "https://untappd.akamaized.net/badges/bdg_2xCore_sm.jpg",
+                  "md": "https://untappd.akamaized.net/badges/bdg_2xCore_md.jpg",
+                  "lg": "https://untappd.akamaized.net/badges/bdg_2xCore_lg.jpg"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "checkin_id": 433071085,
+          "created_at": "Sun, 26 Mar 2017 22:38:59 +0000",
+          "checkin_comment": "",
+          "rating_score": 3.5,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 790787,
+            "beer_name": "Stiltsville",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-790787_cd291_sm.jpeg",
+            "beer_style": "Pilsner - Other",
+            "beer_slug": "concrete-beach-brewery-stiltsville",
+            "beer_abv": 5.2,
+            "auth_rating": 3.5,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 152818,
+            "brewery_name": "Concrete Beach Brewery",
+            "brewery_slug": "concrete-beach-brewery",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-152818_7e173.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "concretebeachfl",
+              "facebook": "https://www.facebook.com/ConcreteBeachFL",
+              "instagram": "concretebeachfl",
+              "url": "http://concretebeachbrewery.com/"
+            },
+            "location": {
+              "brewery_city": "Miami",
+              "brewery_state": "FL",
+              "lat": 25.7891,
+              "lng": -80.204
+            },
+            "brewery_active": 1
+          },
+          "venue": {
+            "venue_id": 2540586,
+            "venue_name": "109 Burger Joint",
+            "venue_slug": "109-burger-joint",
+            "primary_category": "Food",
+            "parent_category_id": "4d4b7105d754a06374d81259",
+            "categories": {
+              "count": 1,
+              "items": [
+                {
+                  "category_name": "Burger Joint",
+                  "category_id": "4bf58dd8d48988d16c941735",
+                  "is_primary": true
+                }
+              ]
+            },
+            "location": {
+              "venue_address": "646 SW 109th Ave",
+              "venue_city": "Sweetwater",
+              "venue_state": "FL",
+              "venue_country": "United States",
+              "lat": 25.7628,
+              "lng": -80.3727
+            },
+            "contact": {
+              "twitter": "",
+              "venue_url": "http://www.109burgerjoint.com"
+            },
+            "public_venue": true,
+            "foursquare": {
+              "foursquare_id": "54c28534498e1491aa26f5ca",
+              "foursquare_url": "http://4sq.com/1CZvGr4"
+            },
+            "venue_icon": {
+              "sm": "https://ss3.4sqi.net/img/categories_v2/food/burger_bg_64.png",
+              "md": "https://ss3.4sqi.net/img/categories_v2/food/burger_bg_88.png",
+              "lg": "https://ss3.4sqi.net/img/categories_v2/food/burger_bg_88.png"
+            },
+            "is_verified": false
+          },
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 1,
+            "count": 1,
+            "auth_toast": false,
+            "items": [
+              {
+                "uid": 1474764,
+                "user": {
+                  "uid": 1474764,
+                  "user_name": "Sporkitover",
+                  "first_name": "Carrie",
+                  "last_name": "Dils",
+                  "bio": "",
+                  "location": "",
+                  "user_avatar": "https://gravatar.com/avatar/2a90c7bbcc428c837b7c6a4ff59130ad?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+                  "account_type": "user",
+                  "venue_details": [],
+                  "brewery_details": [],
+                  "user_link": "https://untappd.com/user/Sporkitover"
+                },
+                "like_id": 353887656,
+                "like_owner": false,
+                "created_at": "Sun, 26 Mar 2017 22:42:51 +0000"
+              }
+            ]
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 433069813,
+          "created_at": "Sun, 26 Mar 2017 22:36:42 +0000",
+          "checkin_comment": "",
+          "rating_score": 4,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 1837202,
+            "beer_name": "Too Sweet",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1837202_cb524_sm.jpeg",
+            "beer_style": "Porter - Baltic",
+            "beer_slug": "j-wakefield-brewing-too-sweet",
+            "beer_abv": 11.5,
+            "auth_rating": 4,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 45103,
+            "brewery_name": "J. Wakefield Brewing",
+            "brewery_slug": "j-wakefield-brewing",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-45103_9a8b4.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "JWakefieldBeer",
+              "facebook": "http://www.facebook.com/JWakefieldBeer",
+              "instagram": "JWakefieldBeer",
+              "url": "http://www.jwakefieldbrewing.com"
+            },
+            "location": {
+              "brewery_city": "Miami",
+              "brewery_state": "FL",
+              "lat": 25.7996,
+              "lng": -80.1975
+            },
+            "brewery_active": 1
+          },
+          "venue": {
+            "venue_id": 2540586,
+            "venue_name": "109 Burger Joint",
+            "venue_slug": "109-burger-joint",
+            "primary_category": "Food",
+            "parent_category_id": "4d4b7105d754a06374d81259",
+            "categories": {
+              "count": 1,
+              "items": [
+                {
+                  "category_name": "Burger Joint",
+                  "category_id": "4bf58dd8d48988d16c941735",
+                  "is_primary": true
+                }
+              ]
+            },
+            "location": {
+              "venue_address": "646 SW 109th Ave",
+              "venue_city": "Sweetwater",
+              "venue_state": "FL",
+              "venue_country": "United States",
+              "lat": 25.7628,
+              "lng": -80.3727
+            },
+            "contact": {
+              "twitter": "",
+              "venue_url": "http://www.109burgerjoint.com"
+            },
+            "public_venue": true,
+            "foursquare": {
+              "foursquare_id": "54c28534498e1491aa26f5ca",
+              "foursquare_url": "http://4sq.com/1CZvGr4"
+            },
+            "venue_icon": {
+              "sm": "https://ss3.4sqi.net/img/categories_v2/food/burger_bg_64.png",
+              "md": "https://ss3.4sqi.net/img/categories_v2/food/burger_bg_88.png",
+              "lg": "https://ss3.4sqi.net/img/categories_v2/food/burger_bg_88.png"
+            },
+            "is_verified": false
+          },
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 1,
+            "items": [
+              {
+                "badge_id": 3416,
+                "user_badge_id": 180615943,
+                "badge_name": "Better Together (Level 9)",
+                "badge_description": "What happens when you take two or more amazing breweries, throw them into the tank and let them ferment together? An amazing collaboration beer, that’s what! Cheers to working together to create the perfect flavor. That's 45 different beers that been brewed as a collaboration. Try 5 more for Level 10!",
+                "created_at": "Sun, 26 Mar 2017 22:36:45 +0000",
+                "badge_image": {
+                  "sm": "https://untappd.akamaized.net/badges/bdg_BetterTogether_sm.jpg",
+                  "md": "https://untappd.akamaized.net/badges/bdg_BetterTogether_md.jpg",
+                  "lg": "https://untappd.akamaized.net/badges/bdg_BetterTogether_lg.jpg"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "checkin_id": 433033578,
+          "created_at": "Sun, 26 Mar 2017 21:33:01 +0000",
+          "checkin_comment": "",
+          "rating_score": 4,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 215722,
+            "beer_name": "Muy Bonita",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-215722_8abaa_sm.jpeg",
+            "beer_style": "Brown Ale - Imperial / Double",
+            "beer_slug": "funky-buddha-brewery-muy-bonita",
+            "beer_abv": 8.8,
+            "auth_rating": 4,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 3741,
+            "brewery_name": "Funky Buddha Brewery",
+            "brewery_slug": "funky-buddha-brewery",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-3741_5da85.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "FunkyBuddhaBrew",
+              "facebook": "http://www.facebook.com/funkybuddhabrewery",
+              "instagram": "FunkyBuddhaBrew",
+              "url": "http://www.funkybuddhabrewery.com/"
+            },
+            "location": {
+              "brewery_city": "Oakland Park",
+              "brewery_state": "FL",
+              "lat": 26.1743,
+              "lng": -80.1307
+            },
+            "brewery_active": 1
+          },
+          "venue": {
+            "venue_id": 850563,
+            "venue_name": "M.I.A. Beer Company",
+            "venue_slug": "mia-brewing",
+            "primary_category": "Nightlife Spot",
+            "parent_category_id": "4d4b7105d754a06376d81259",
+            "categories": {
+              "count": 2,
+              "items": [
+                {
+                  "category_name": "Brewery",
+                  "category_id": "50327c8591d4c4b30a586d5d",
+                  "is_primary": true
+                },
+                {
+                  "category_name": "Restaurant",
+                  "category_id": "4bf58dd8d48988d1c4941735",
+                  "is_primary": false
+                }
+              ]
+            },
+            "location": {
+              "venue_address": "10400 NW 33rd St,Suite 150",
+              "venue_city": "Doral",
+              "venue_state": "FL",
+              "venue_country": "United States",
+              "lat": 25.8041,
+              "lng": -80.366
+            },
+            "contact": {
+              "twitter": "",
+              "venue_url": "www.mia.beer"
+            },
+            "public_venue": true,
+            "foursquare": {
+              "foursquare_id": "51d84669498e810588da7e61",
+              "foursquare_url": "http://4sq.com/18DCZsJ"
+            },
+            "venue_icon": {
+              "sm": "https://untappd.akamaized.net/venuelogos/venue_850563_fbea1a85_bg_64.png",
+              "md": "https://untappd.akamaized.net/venuelogos/venue_850563_fbea1a85_bg_88.png",
+              "lg": "https://untappd.akamaized.net/venuelogos/venue_850563_fbea1a85_bg_88.png"
+            },
+            "is_verified": true
+          },
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 1,
+            "items": [
+              {
+                "badge_id": 758,
+                "user_badge_id": 180598451,
+                "badge_name": "Bravo for Brown (Level 8)",
+                "badge_description": "Dating back to the 17th century, Brown Ales come in a number of varities. With malty, nutty characteristics and a smooth finish, it's sure to cure your cravings.  That's 40 different Brown Ales. Try 5 more for Level 9.",
+                "created_at": "Sun, 26 Mar 2017 21:33:03 +0000",
+                "badge_image": {
+                  "sm": "https://untappd.akamaized.net/badges/bdg_BravoForBrown_sm.jpg",
+                  "md": "https://untappd.akamaized.net/badges/bdg_BravoForBrown_md.jpg",
+                  "lg": "https://untappd.akamaized.net/badges/bdg_BravoForBrown_lg.jpg"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "checkin_id": 433011569,
+          "created_at": "Sun, 26 Mar 2017 20:55:41 +0000",
+          "checkin_comment": "",
+          "rating_score": 3.75,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 1819721,
+            "beer_name": "Retro Porter",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1819721_4f969_sm.jpeg",
+            "beer_style": "Porter - Imperial / Double",
+            "beer_slug": "m-i-a-beer-co-retro-porter",
+            "beer_abv": 6,
+            "auth_rating": 3.75,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 46754,
+            "brewery_name": "M.I.A. Beer Co.",
+            "brewery_slug": "mia-beer-co",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-46754_6a314.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "MIAbeerco",
+              "facebook": "http://www.facebook.com/MIAbeerco",
+              "instagram": "MIAbeerco",
+              "url": "http://www.MIA.beer"
+            },
+            "location": {
+              "brewery_city": "Miami",
+              "brewery_state": "FL",
+              "lat": 25.8037,
+              "lng": -80.366
+            },
+            "brewery_active": 1
+          },
+          "venue": {
+            "venue_id": 850563,
+            "venue_name": "M.I.A. Beer Company",
+            "venue_slug": "mia-brewing",
+            "primary_category": "Nightlife Spot",
+            "parent_category_id": "4d4b7105d754a06376d81259",
+            "categories": {
+              "count": 2,
+              "items": [
+                {
+                  "category_name": "Brewery",
+                  "category_id": "50327c8591d4c4b30a586d5d",
+                  "is_primary": true
+                },
+                {
+                  "category_name": "Restaurant",
+                  "category_id": "4bf58dd8d48988d1c4941735",
+                  "is_primary": false
+                }
+              ]
+            },
+            "location": {
+              "venue_address": "10400 NW 33rd St,Suite 150",
+              "venue_city": "Doral",
+              "venue_state": "FL",
+              "venue_country": "United States",
+              "lat": 25.8041,
+              "lng": -80.366
+            },
+            "contact": {
+              "twitter": "",
+              "venue_url": "www.mia.beer"
+            },
+            "public_venue": true,
+            "foursquare": {
+              "foursquare_id": "51d84669498e810588da7e61",
+              "foursquare_url": "http://4sq.com/18DCZsJ"
+            },
+            "venue_icon": {
+              "sm": "https://untappd.akamaized.net/venuelogos/venue_850563_fbea1a85_bg_64.png",
+              "md": "https://untappd.akamaized.net/venuelogos/venue_850563_fbea1a85_bg_88.png",
+              "lg": "https://untappd.akamaized.net/venuelogos/venue_850563_fbea1a85_bg_88.png"
+            },
+            "is_verified": true
+          },
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 0,
+            "items": []
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 0,
+            "items": []
+          }
+        },
+        {
+          "checkin_id": 433006313,
+          "created_at": "Sun, 26 Mar 2017 20:46:20 +0000",
+          "checkin_comment": "From last night",
+          "rating_score": 2.5,
+          "user": {
+            "uid": 180202,
+            "user_name": "GunGeekATX",
+            "first_name": "Pete",
+            "last_name": "",
+            "location": "",
+            "is_supporter": 0,
+            "url": "",
+            "bio": "WordPress code wrangler, rifle/pistol shooter, craft beer hunter, whisky/bourbon drinker",
+            "relationship": "self",
+            "user_avatar": "https://untappd.akamaized.net/profile/4011f6e2dbe47afc712ba34657b4f9d1_thumb.jpeg",
+            "is_private": 0,
+            "contact": {
+              "twitter": "GunGeekATX"
+            }
+          },
+          "beer": {
+            "bid": 138719,
+            "beer_name": "Toña",
+            "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-_138719_sm_02133a0d251e9903b3552bd0c38b74.jpeg",
+            "beer_style": "Lager - Pale",
+            "beer_slug": "compania-cervecera-de-nicaragua-tona",
+            "beer_abv": 4.6,
+            "auth_rating": 2.5,
+            "wish_list": false,
+            "beer_active": 1,
+            "has_had": true
+          },
+          "brewery": {
+            "brewery_id": 6376,
+            "brewery_name": "Compañia Cervecera de Nicaragua",
+            "brewery_slug": "compania-cervecera-de-nicaragua",
+            "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-CompaniaCerveceradeNicaragua_6376.jpeg",
+            "country_name": "Nicaragua",
+            "contact": {
+              "twitter": "",
+              "facebook": "",
+              "instagram": "",
+              "url": "www.ccn.com.ni"
+            },
+            "location": {
+              "brewery_city": "Managua",
+              "brewery_state": "Nicaragua",
+              "lat": 12.1364,
+              "lng": -86.2514
+            },
+            "brewery_active": 1
+          },
+          "venue": {
+            "venue_id": 1021678,
+            "venue_name": "Charcoals Latin Grill",
+            "venue_slug": "charcoals-latin-grill",
+            "primary_category": "Food",
+            "parent_category_id": "4d4b7105d754a06374d81259",
+            "categories": {
+              "count": 2,
+              "items": [
+                {
+                  "category_name": "Latin American Restaurant",
+                  "category_id": "4bf58dd8d48988d1be941735",
+                  "is_primary": true
+                },
+                {
+                  "category_name": "Shopping Mall",
+                  "category_id": "4bf58dd8d48988d1fd941735",
+                  "is_primary": false
+                }
+              ]
+            },
+            "location": {
+              "venue_address": "",
+              "venue_city": "Miami",
+              "venue_state": "FL",
+              "venue_country": "United States",
+              "lat": 25.7866,
+              "lng": -80.381
+            },
+            "contact": {
+              "twitter": "",
+              "venue_url": ""
+            },
+            "public_venue": false,
+            "foursquare": {
+              "foursquare_id": "4bc12bf32a89ef3be1fdf188",
+              "foursquare_url": "http://4sq.com/bKTbiz"
+            },
+            "venue_icon": {
+              "sm": "https://ss3.4sqi.net/img/categories_v2/food/latinamerican_bg_64.png",
+              "md": "https://ss3.4sqi.net/img/categories_v2/food/latinamerican_bg_88.png",
+              "lg": "https://ss3.4sqi.net/img/categories_v2/food/latinamerican_bg_88.png"
+            },
+            "is_verified": false
+          },
+          "comments": {
+            "total_count": 0,
+            "count": 0,
+            "items": []
+          },
+          "toasts": {
+            "total_count": 0,
+            "count": 0,
+            "auth_toast": false,
+            "items": []
+          },
+          "media": {
+            "count": 1,
+            "items": [
+              {
+                "photo_id": 115964222,
+                "photo": {
+                  "photo_img_sm": "https://untappd.akamaized.net/photo/2017_03_26/04959a8a2679c9cf74a5b1b500e1557f_100x100.jpeg",
+                  "photo_img_md": "https://untappd.akamaized.net/photo/2017_03_26/04959a8a2679c9cf74a5b1b500e1557f_320x320.jpeg",
+                  "photo_img_lg": "https://untappd.akamaized.net/photo/2017_03_26/04959a8a2679c9cf74a5b1b500e1557f_640x640.jpeg",
+                  "photo_img_og": "https://untappd.akamaized.net/photo/2017_03_26/04959a8a2679c9cf74a5b1b500e1557f_raw.jpeg"
+                }
+              }
+            ]
+          },
+          "source": {
+            "app_name": "Untappd for Android - (V2)",
+            "app_website": "http://untpd.it/androidapp"
+          },
+          "badges": {
+            "count": 1,
+            "items": [
+              {
+                "badge_id": 647,
+                "user_badge_id": 180584798,
+                "badge_name": "Beer Connoisseur (Level 6)",
+                "badge_description": "Travel much? You must be a \"brewsetter\". That's at least a beer from 30 different countries. Try 5 more for Level 7!",
+                "created_at": "Sun, 26 Mar 2017 20:46:22 +0000",
+                "badge_image": {
+                  "sm": "https://untappd.akamaized.net/badges/bdg_connoiseur_sm.jpg",
+                  "md": "https://untappd.akamaized.net/badges/bdg_connoiseur_md.jpg",
+                  "lg": "https://untappd.akamaized.net/badges/bdg_connoiseur_lg.jpg"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
