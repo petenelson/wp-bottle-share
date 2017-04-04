@@ -3,13 +3,16 @@
 namespace WP_Bottle_Share\Admin\User_Profile;
 
 add_action( 'show_user_profile', __NAMESPACE__ . '\untappd_fields' );
+add_action( 'edit_user_profile', __NAMESPACE__ . '\untappd_fields' );
 
-function untappd_fields() {
+function untappd_fields( $user ) {
 
-	$url = \WP_Bottle_Share\Untappd\API\get_user_url();
+	$user_id = $user->ID;
+
+	$url = \WP_Bottle_Share\Untappd\API\get_user_url( $user_id );
 
 	if ( ! empty( $url ) ) {
-		$bio = \WP_Bottle_Share\Untappd\API\get_user_property( 'bio' );
+		$bio = \WP_Bottle_Share\Untappd\API\get_user_property( 'bio', $user_id );
 	}
 
 	?>
@@ -24,9 +27,9 @@ function untappd_fields() {
 			<td>
 				<?php if ( ! empty( $url ) ) : ?>
 
-					<a href="<?php echo esc_url( $url ); ?>"><img src="<?php echo esc_url( \WP_Bottle_Share\Untappd\API\get_user_avatar() ) ?>" /></a>
+					<a href="<?php echo esc_url( $url ); ?>"><img src="<?php echo esc_url( \WP_Bottle_Share\Untappd\API\get_user_avatar( $user_id ) ) ?>" /></a>
 					<br/>
-					<a href="<?php echo esc_url( $url ); ?>"><?php echo esc_html( \WP_Bottle_Share\Untappd\API\get_user_name() ); ?></a>
+					<a href="<?php echo esc_url( $url ); ?>"><?php echo esc_html( \WP_Bottle_Share\Untappd\API\get_user_name( $user_id ) ); ?></a>
 
 					<?php if ( ! empty( $bio ) ) : ?>
 						<p class="description"><?php echo esc_html( $bio ); ?></p>

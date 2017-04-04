@@ -16,21 +16,25 @@ function get_endpoint() {
 /**
  * Gets a Untappd action URL.
  *
- * @param  string $action Action to perform (user/checkins, beer/info, etc).
+ * @param  string $action  Action to perform (user/checkins, beer/info, etc).
+ * @param  int    $user_id The WP user ID to perform the action as.
  * @return string
  */
-function get_action_url( $action ) {
+function get_action_url( $action, $user_id ) {
 
 	// Get the endpoint URL.
 	$url = trailingslashit( get_endpoint() ) . trim( $action );
 
-	if ( is_user_logged_in() ) {
+	$access_token = '';
+
+	if ( ! empty( $user_id ) ) {
+		$access_token = get_user_meta( $user_id, 'wp-bottle-share-untappd-access-token', true );
+	}
+
+	if ( ! empty( $access_token ) ) {
 
 		// Add the user's access token.
-		$access_token = get_user_meta( get_current_user_id(), 'wp-bottle-share-untappd-access-token', true );
-		if ( ! empty( $access_token ) ) {
-			$url = add_query_arg( 'access_token', rawurlencode( $access_token ), $url );
-		}
+		$url = add_query_arg( 'access_token', rawurlencode( $access_token ), $url );
 	} else {
 
 		// Add the client ID and secret.
@@ -67,11 +71,12 @@ function get_client_secret() {
 /**
  * Performs a API request against the Untappd API.
  *
- * @param  string $action Action to perform (user/checkins, beer/info, etc).
- * @param  array  $args   Additional args for wp_remote_get().
+ * @param  string $action  Action to perform (user/checkins, beer/info, etc).
+ * @param  int    $user_id The WP user ID to perform the action as.
+ * @param  array  $args    Additional args for wp_remote_get().
  * @return object
  */
-function untappd_remote( $action, $method = 'GET', $args = array() ) {
+function untappd_remote( $action, $user_id, $method = 'GET', $args = array() ) {
 
 	$args = wp_parse_args( $args, array(
 		'timeout' => 5,
@@ -79,7 +84,7 @@ function untappd_remote( $action, $method = 'GET', $args = array() ) {
 	);
 
 	// Get the base URL.
-	$url = get_action_url( $action );
+	$url = get_action_url( $action, $user_id );
 
 	// Add any query args.
 	if ( ! empty( $args['query'] ) && is_array( $args['query'] ) ) {
@@ -133,12 +138,12 @@ function untappd_remote( $action, $method = 'GET', $args = array() ) {
 	return false;
 }
 
-function untappd_remote_get( $action, $args = array() ) {
-	return untappd_remote( $action, 'GET', $args );
+function untappd_remote_get( $action, $user_id, $args = array() ) {
+	return untappd_remote( $action, $user_id, 'GET', $args );
 }
 
-function untappd_remote_post( $action, $args = array() ) {
-	return untappd_remote( $action, 'POST', $args );
+function untappd_remote_post( $action, $user_id, $args = array() ) {
+	return untappd_remote( $action, $user_id, 'POST', $args );
 }
 
 /**
@@ -148,7 +153,7 @@ function untappd_remote_post( $action, $args = array() ) {
  */
 function get_access_token( $user_id = 0 ) {
 
-	if ( empty( $user_id ) && is_user_logged_in() ) {
+	if ( empty( $user_id ) ) {
 		$user_id = get_current_user_id();
 	}
 
@@ -167,5 +172,5 @@ function get_access_token( $user_id = 0 ) {
  * @return string
  */
 function get_cache_key( $url, $method, $args ) {
-	return md5( $url . $method . json_encode( $args ) );
+	return 'wp-bottle-share-' . md5( $url . $method . json_encode( $args ) );
 }

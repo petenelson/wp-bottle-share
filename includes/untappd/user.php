@@ -2,27 +2,27 @@
 
 namespace WP_Bottle_Share\Untappd\API;
 
-function get_untappd_user( $username = '' ) {
+function get_untappd_user( $user_id = 0 ) {
 
 	$response = false;
 
-	if ( ! empty( $username ) ) {
+	if ( empty( $user_id ) ) {
+		$user_id = get_current_user_id();
+	}
 
-		// Get the user by their username.
-		$response = untappd_remote_get( 'user/info/' . trim( sanitize_key( $username ) ) );
-	} else if ( ! empty( \WP_Bottle_Share\Untappd\API\get_access_token() ) ) {
+	if ( ! empty( $user_id ) && ! empty( \WP_Bottle_Share\Untappd\API\get_access_token( $user_id ) ) ) {
 
 		// We don't need the username to get the current user info based
 		// on their access token.
-		$response = untappd_remote_get( 'user/info' );
+		$response = untappd_remote_get( 'user/info', $user_id );
 	}
 
 	return ! empty( $response ) && ! empty( $response->user ) ? $response->user : false;
 }
 
-function get_user_property( $property, $user = '', $default = '' ) {
+function get_user_property( $property, $user_id = 0, $default = '' ) {
 
-	$user = get_untappd_user( $user );
+	$user = get_untappd_user( $user_id );
 
 	if ( ! empty( $user ) && isset( $user->{$property} ) ) {
 		return $user->{$property};
@@ -32,13 +32,13 @@ function get_user_property( $property, $user = '', $default = '' ) {
 }
 
 function get_user_name( $user_id = 0 ) {
-	return get_user_property( 'user_name' );
+	return get_user_property( 'user_name', $user_id );
 }
 
 function get_user_url( $user_id = 0 ) {
-	return get_user_property( 'untappd_url' );
+	return get_user_property( 'untappd_url', $user_id );
 }
 
 function get_user_avatar( $user_id = 0 ) {
-	return get_user_property( 'user_avatar' );
+	return get_user_property( 'user_avatar', $user_id );
 }
