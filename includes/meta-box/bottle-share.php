@@ -22,6 +22,7 @@ function display_meta_box( $post ) {
 	wp_nonce_field( 'wp-bottle-share-details', 'wp-bottle-share-details-nonce' );
 
 	$location_name = get_post_meta( $post_id, get_key_location_name(), true );
+	$location_url = get_post_meta( $post_id, get_key_location_url(), true );
 
 	?>
 
@@ -32,6 +33,15 @@ function display_meta_box( $post ) {
 				</th>
 				<td>
 					<input type="text" class="regular-text" name="<?php echo esc_attr( get_key_location_name() ); ?>" value="<?php echo esc_attr( $location_name ); ?>" />
+				</td>
+			</tr>
+
+			<tr>
+				<th>
+					<label for="wp-bottle-share-location-url"><?php esc_html_e( 'Location URL', 'wp-bottle-share' ); ?></label>
+				</th>
+				<td>
+					<input type="text" class="regular-text" name="<?php echo esc_attr( get_key_location_url() ); ?>" value="<?php echo esc_attr( $location_url ); ?>" />
 				</td>
 			</tr>
 
@@ -54,8 +64,10 @@ function save_meta_box( $post_id ) {
 	}
 
 	$location_name = filter_input( INPUT_POST, get_key_location_name(), FILTER_SANITIZE_STRING );
+	$location_url = filter_input( INPUT_POST, get_key_location_url(), FILTER_SANITIZE_URL );
 
 	update_post_meta( $post_id, get_key_location_name(), $location_name );
+	update_post_meta( $post_id, get_key_location_url(), $location_url );
 
 }
 
