@@ -1,6 +1,6 @@
 <?php
 
-namespace WP_Bottle_Share\Post_Types\Bottle_Share;
+namespace WP_Bottle_Share\Post_Type\Bottle_Share;
 
 add_action( 'init', __NAMESPACE__ . '\register_bottle_share' );
 
