@@ -23,6 +23,7 @@ function display_meta_box( $post ) {
 
 	$location_name = get_post_meta( $post_id, get_key_location_name(), true );
 	$location_url = get_post_meta( $post_id, get_key_location_url(), true );
+	$location_address = get_post_meta( $post_id, get_key_location_address(), true );
 
 	?>
 
@@ -42,6 +43,15 @@ function display_meta_box( $post ) {
 				</th>
 				<td>
 					<input type="text" class="regular-text" name="<?php echo esc_attr( get_key_location_url() ); ?>" value="<?php echo esc_attr( $location_url ); ?>" />
+				</td>
+			</tr>
+
+			<tr>
+				<th>
+					<label for="wp-bottle-share-location-address"><?php esc_html_e( 'Location address', 'wp-bottle-share' ); ?></label>
+				</th>
+				<td>
+					<textarea rows="4" type="text" class="regular-text" name="<?php echo esc_attr( get_key_location_address() ); ?>"><?php echo esc_html( $location_address ) ?></textarea>
 				</td>
 			</tr>
 
@@ -65,9 +75,11 @@ function save_meta_box( $post_id ) {
 
 	$location_name = filter_input( INPUT_POST, get_key_location_name(), FILTER_SANITIZE_STRING );
 	$location_url = filter_input( INPUT_POST, get_key_location_url(), FILTER_SANITIZE_URL );
+	$location_address = filter_input( INPUT_POST, get_key_location_address(), FILTER_SANITIZE_STRING );
 
 	update_post_meta( $post_id, get_key_location_name(), $location_name );
 	update_post_meta( $post_id, get_key_location_url(), $location_url );
+	update_post_meta( $post_id, get_key_location_address(), $location_address );
 
 }
 
