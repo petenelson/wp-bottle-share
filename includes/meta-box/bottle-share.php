@@ -21,9 +21,21 @@ function display_meta_box( $post ) {
 
 	wp_nonce_field( 'wp-bottle-share-details', 'wp-bottle-share-details-nonce' );
 
+	$location_name = get_post_meta( $post_id, get_key_location_name(), true );
+
 	?>
 
-	Hello world
+		<table class="form-table">
+			<tr>
+				<th>
+					<label for="wp-bottle-share-location-name"><?php esc_html_e( 'Location Name', 'wp-bottle-share' ); ?></label>
+				</th>
+				<td>
+					<input type="text" class="regular-text" name="<?php echo esc_attr( get_key_location_name() ); ?>" value="<?php echo esc_attr( $location_name ); ?>" />
+				</td>
+			</tr>
+
+		</table>
 
 	<?php
 
@@ -32,14 +44,41 @@ function display_meta_box( $post ) {
 function save_meta_box( $post_id ) {
 
 	if ( ! current_user_can( 'edit_post', $post_id ) ) {
+		die('a');
 		return;
 	}
 
-	$nonce = filter_input( INPUT_GET, 'wp-bottle-share-details-nonce', FILTER_SANITIZE_STRING );
+	$nonce = filter_input( INPUT_POST, 'wp-bottle-share-details-nonce', FILTER_SANITIZE_STRING );
 	if ( ! wp_verify_nonce( $nonce, 'wp-bottle-share-details' ) ) {
 		return;
 	}
 
-	// TODO save details.
+	$location_name = filter_input( INPUT_POST, get_key_location_name(), FILTER_SANITIZE_STRING );
 
+	update_post_meta( $post_id, get_key_location_name(), $location_name );
+
+}
+
+function get_key_location_name() {
+	return 'wp-bottle-share-location-name';
+}
+
+function get_key_location_url() {
+	return 'wp-bottle-share-location-url';
+}
+
+function get_key_location_address() {
+	return 'wp-bottle-share-location-address';
+}
+
+function get_key_location_address_url() {
+	return 'wp-bottle-share-location-address-url';
+}
+
+function get_key_date_time() {
+	return 'wp-bottle-share-date-time';
+}
+
+function get_key_is_primary() {
+	return 'wp-bottle-share-is-primary';
 }
