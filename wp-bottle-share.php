@@ -46,3 +46,4 @@ require_once WP_BOTTLE_SHARE_PATH . 'includes/admin/user-profile.php';
 require_once WP_BOTTLE_SHARE_PATH . 'includes/untappd/api.php';
 require_once WP_BOTTLE_SHARE_PATH . 'includes/untappd/oauth.php';
 require_once WP_BOTTLE_SHARE_PATH . 'includes/untappd/user.php';
+require_once WP_BOTTLE_SHARE_PATH . 'includes/post-type/bottle-share.php';
