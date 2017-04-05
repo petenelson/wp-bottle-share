@@ -16,6 +16,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+if ( ! defined( 'WP_BOTTLE_SHARE_VERSION' ) ) {
+	define( 'WP_BOTTLE_SHARE_VERSION', '1.0.0' );
+}
+
 if ( ! defined( 'WP_BOTTLE_SHARE_ROOT' ) ) {
 	define( 'WP_BOTTLE_SHARE_ROOT', trailingslashit( dirname( __FILE__ ) ) );
 }
