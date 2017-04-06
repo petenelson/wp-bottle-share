@@ -25,6 +25,7 @@ function display_meta_box( $post ) {
 	$location_url = get_post_meta( $post_id, get_key_location_url(), true );
 	$location_address = get_post_meta( $post_id, get_key_location_address(), true );
 	$location_address_url = get_post_meta( $post_id, get_key_location_address_url(), true );
+	$date_time = get_post_meta( $post_id, get_key_date_time(), true );
 
 	?>
 
@@ -58,10 +59,32 @@ function display_meta_box( $post ) {
 
 			<tr>
 				<th>
-					<label for="wp-bottle-share-location-address_url"><?php esc_html_e( 'Location Address URL (Google Maps)', 'wp-bottle-share' ); ?></label>
+					<label for="<?php echo esc_attr( get_key_location_address_url() ); ?>"><?php esc_html_e( 'Location Address URL (Google Maps)', 'wp-bottle-share' ); ?></label>
 				</th>
 				<td>
-					<input type="text" class="regular-text" name="<?php echo esc_attr( get_key_location_address_url() ); ?>" value="<?php echo esc_attr( $location_address_url ); ?>" />
+					<input
+						type="text"
+						class="regular-text"
+						name="<?php echo esc_attr( get_key_location_address_url() ); ?>"
+						id="<?php echo esc_attr( get_key_location_address_url() ); ?>"
+						value="<?php echo esc_attr( $location_address_url ); ?>"
+					/>
+				</td>
+			</tr>
+
+			<tr>
+				<th>
+					<label for="<?php echo esc_attr( get_key_date_time() ); ?>"><?php esc_html_e( 'Date & Time', 'wp-bottle-share' ); ?></label>
+				</th>
+				<td>
+					<input
+						type="text"
+						class="regular-text"
+						name="<?php echo esc_attr( get_key_date_time() ); ?>"
+						id="<?php echo esc_attr( get_key_date_time() ); ?>"
+						value="<?php echo esc_attr( $date_time ); ?>"
+						placeholder="<?php esc_attr_e( '7/4/16 7:00pm', 'wp-bottle-share' ); ?>"
+					/>
 				</td>
 			</tr>
 
@@ -74,7 +97,6 @@ function display_meta_box( $post ) {
 function save_meta_box( $post_id ) {
 
 	if ( ! current_user_can( 'edit_post', $post_id ) ) {
-		die('a');
 		return;
 	}
 
@@ -87,11 +109,17 @@ function save_meta_box( $post_id ) {
 	$location_url = filter_input( INPUT_POST, get_key_location_url(), FILTER_SANITIZE_URL );
 	$location_address = filter_input( INPUT_POST, get_key_location_address(), FILTER_SANITIZE_STRING );
 	$location_address_url = filter_input( INPUT_POST, get_key_location_address_url(), FILTER_SANITIZE_URL );
+	$date_time = filter_input( INPUT_POST, get_key_date_time(), FILTER_SANITIZE_STRING );
+
+	if ( ! empty( $date_time ) ) {
+		$date_time = date( 'm/j/y g:ia', strtotime( $date_time ) );
+	}
 
 	update_post_meta( $post_id, get_key_location_name(), $location_name );
 	update_post_meta( $post_id, get_key_location_url(), $location_url );
 	update_post_meta( $post_id, get_key_location_address(), $location_address );
 	update_post_meta( $post_id, get_key_location_address_url(), $location_address_url );
+	update_post_meta( $post_id, get_key_date_time(), $date_time );
 
 }
 
