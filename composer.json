@@ -10,7 +10,11 @@
     ],
     "require": {},
     "require-dev": {
+        "squizlabs/php_codesniffer": "^2.5",
         "wp-coding-standards/wpcs": "dev-master",
-        "phpunit/phpunit": "^4.8"
+        "phpunit/phpunit": "^4.8",
+        "codeclimate/php-test-reporter": "^0.3.0",
+        "behat/behat": "~2.5",
+        "10up/wp_mock": "dev-master"
     }
 }
