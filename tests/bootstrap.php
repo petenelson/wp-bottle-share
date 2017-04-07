@@ -2,7 +2,7 @@
 /**
  * PHPUnit bootstrap file
  *
- * @package dashboard-directory-size
+ * @package wp-bottle-share
  */
 
 if ( ! defined( 'PHPUNIT_RUNNING' ) ) {
@@ -39,4 +39,4 @@ WP_Mock::setUsePatchwork( true );
 WP_Mock::bootstrap();
 WP_Mock::tearDown();
 
-require_once PROJECT . 'wp-bottle-share.php';
+require_once PROJECT . '/tests/base-test.php';
