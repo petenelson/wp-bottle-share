@@ -41,6 +41,7 @@ if ( ! defined( 'WP_BOTTLE_SHARE_BASENAME' ) ) {
 }
 
 require_once WP_BOTTLE_SHARE_PATH . 'includes/admin/settings.php';
+require_once WP_BOTTLE_SHARE_PATH . 'includes/admin/scripts.php';
 require_once WP_BOTTLE_SHARE_PATH . 'includes/admin/untappd.php';
 require_once WP_BOTTLE_SHARE_PATH . 'includes/admin/user-profile.php';
 require_once WP_BOTTLE_SHARE_PATH . 'includes/untappd/api.php';
