@@ -1,0 +1,650 @@
+[
+    {
+        "beer_style_id": 95,
+        "beer_style": "Altbier"
+    },
+    {
+        "beer_style_id": 205,
+        "beer_style": "Applewine"
+    },
+    {
+        "beer_style_id": 222,
+        "beer_style": "Australian Sparkling Ale"
+    },
+    {
+        "beer_style_id": 7,
+        "beer_style": "Barleywine - American"
+    },
+    {
+        "beer_style_id": 202,
+        "beer_style": "Barleywine - English"
+    },
+    {
+        "beer_style_id": 275,
+        "beer_style": "Barleywine - Other"
+    },
+    {
+        "beer_style_id": 63,
+        "beer_style": "Belgian Dubbel"
+    },
+    {
+        "beer_style_id": 64,
+        "beer_style": "Belgian Quad"
+    },
+    {
+        "beer_style_id": 91,
+        "beer_style": "Belgian Strong Dark Ale"
+    },
+    {
+        "beer_style_id": 132,
+        "beer_style": "Belgian Strong Golden Ale"
+    },
+    {
+        "beer_style_id": 124,
+        "beer_style": "Belgian Tripel"
+    },
+    {
+        "beer_style_id": 206,
+        "beer_style": "Bière de Champagne / Bière Brut"
+    },
+    {
+        "beer_style_id": 195,
+        "beer_style": "Bière de Garde"
+    },
+    {
+        "beer_style_id": 236,
+        "beer_style": "Black & Tan"
+    },
+    {
+        "beer_style_id": 13,
+        "beer_style": "Blonde Ale"
+    },
+    {
+        "beer_style_id": 242,
+        "beer_style": "Blonde Ale - Belgian Blonde / Golden"
+    },
+    {
+        "beer_style_id": 14,
+        "beer_style": "Bock"
+    },
+    {
+        "beer_style_id": 188,
+        "beer_style": "Braggot"
+    },
+    {
+        "beer_style_id": 116,
+        "beer_style": "Brown Ale - American"
+    },
+    {
+        "beer_style_id": 229,
+        "beer_style": "Brown Ale - Belgian"
+    },
+    {
+        "beer_style_id": 196,
+        "beer_style": "Brown Ale - English"
+    },
+    {
+        "beer_style_id": 211,
+        "beer_style": "Brown Ale - Imperial / Double"
+    },
+    {
+        "beer_style_id": 266,
+        "beer_style": "Brown Ale - Other"
+    },
+    {
+        "beer_style_id": 230,
+        "beer_style": "Burton Ale"
+    },
+    {
+        "beer_style_id": 129,
+        "beer_style": "California Common"
+    },
+    {
+        "beer_style_id": 16,
+        "beer_style": "Cider"
+    },
+    {
+        "beer_style_id": 79,
+        "beer_style": "Cream Ale"
+    },
+    {
+        "beer_style_id": 189,
+        "beer_style": "Cyser"
+    },
+    {
+        "beer_style_id": 234,
+        "beer_style": "Dampfbier"
+    },
+    {
+        "beer_style_id": 180,
+        "beer_style": "Dark Ale"
+    },
+    {
+        "beer_style_id": 18,
+        "beer_style": "Doppelbock "
+    },
+    {
+        "beer_style_id": 74,
+        "beer_style": "Dunkelweizen"
+    },
+    {
+        "beer_style_id": 193,
+        "beer_style": "Eisbock"
+    },
+    {
+        "beer_style_id": 192,
+        "beer_style": "English Bitter"
+    },
+    {
+        "beer_style_id": 118,
+        "beer_style": "English Mild Ale"
+    },
+    {
+        "beer_style_id": 92,
+        "beer_style": "Extra Special / Strong Bitter"
+    },
+    {
+        "beer_style_id": 226,
+        "beer_style": "Faro"
+    },
+    {
+        "beer_style_id": 256,
+        "beer_style": "Festbier"
+    },
+    {
+        "beer_style_id": 21,
+        "beer_style": "Fruit Beer"
+    },
+    {
+        "beer_style_id": 233,
+        "beer_style": "Ginger Beer"
+    },
+    {
+        "beer_style_id": 23,
+        "beer_style": "Gluten-Free"
+    },
+    {
+        "beer_style_id": 97,
+        "beer_style": "Golden Ale"
+    },
+    {
+        "beer_style_id": 276,
+        "beer_style": "Grisette"
+    },
+    {
+        "beer_style_id": 85,
+        "beer_style": "Gruit / Ancient Herbed Ale"
+    },
+    {
+        "beer_style_id": 246,
+        "beer_style": "Grätzer / Grodziskie"
+    },
+    {
+        "beer_style_id": 210,
+        "beer_style": "Happoshu"
+    },
+    {
+        "beer_style_id": 24,
+        "beer_style": "Hefeweizen"
+    },
+    {
+        "beer_style_id": 243,
+        "beer_style": "Hefeweizen Light / Leicht"
+    },
+    {
+        "beer_style_id": 128,
+        "beer_style": "IPA - American"
+    },
+    {
+        "beer_style_id": 61,
+        "beer_style": "IPA - Belgian"
+    },
+    {
+        "beer_style_id": 115,
+        "beer_style": "IPA - Black / Cascadian Dark Ale"
+    },
+    {
+        "beer_style_id": 158,
+        "beer_style": "IPA - English"
+    },
+    {
+        "beer_style_id": 227,
+        "beer_style": "IPA - Imperial / Double"
+    },
+    {
+        "beer_style_id": 112,
+        "beer_style": "IPA - Imperial / Double Black"
+    },
+    {
+        "beer_style_id": 260,
+        "beer_style": "IPA - International"
+    },
+    {
+        "beer_style_id": 273,
+        "beer_style": "IPA - Red"
+    },
+    {
+        "beer_style_id": 252,
+        "beer_style": "IPA - Session / India Session Ale"
+    },
+    {
+        "beer_style_id": 248,
+        "beer_style": "IPA - Triple"
+    },
+    {
+        "beer_style_id": 249,
+        "beer_style": "IPA - White"
+    },
+    {
+        "beer_style_id": 106,
+        "beer_style": "Kellerbier / Zwickelbier"
+    },
+    {
+        "beer_style_id": 251,
+        "beer_style": "Kombucha"
+    },
+    {
+        "beer_style_id": 31,
+        "beer_style": "Kristallweizen "
+    },
+    {
+        "beer_style_id": 213,
+        "beer_style": "Kvass"
+    },
+    {
+        "beer_style_id": 30,
+        "beer_style": "Kölsch"
+    },
+    {
+        "beer_style_id": 261,
+        "beer_style": "Lager - Amber"
+    },
+    {
+        "beer_style_id": 240,
+        "beer_style": "Lager - American Amber / Red"
+    },
+    {
+        "beer_style_id": 67,
+        "beer_style": "Lager - American Light"
+    },
+    {
+        "beer_style_id": 262,
+        "beer_style": "Lager - Dark"
+    },
+    {
+        "beer_style_id": 190,
+        "beer_style": "Lager - Dortmunder / Export"
+    },
+    {
+        "beer_style_id": 93,
+        "beer_style": "Lager - Dunkel Munich"
+    },
+    {
+        "beer_style_id": 138,
+        "beer_style": "Lager - Euro"
+    },
+    {
+        "beer_style_id": 239,
+        "beer_style": "Lager - Euro Dark"
+    },
+    {
+        "beer_style_id": 257,
+        "beer_style": "Lager - Euro Strong"
+    },
+    {
+        "beer_style_id": 25,
+        "beer_style": "Lager - Helles"
+    },
+    {
+        "beer_style_id": 247,
+        "beer_style": "Lager - IPL (India Pale Lager)"
+    },
+    {
+        "beer_style_id": 212,
+        "beer_style": "Lager - Japanese Rice"
+    },
+    {
+        "beer_style_id": 4,
+        "beer_style": "Lager - North American Adjunct"
+    },
+    {
+        "beer_style_id": 38,
+        "beer_style": "Lager - Pale"
+    },
+    {
+        "beer_style_id": 270,
+        "beer_style": "Lager - Red"
+    },
+    {
+        "beer_style_id": 50,
+        "beer_style": "Lager - Vienna"
+    },
+    {
+        "beer_style_id": 53,
+        "beer_style": "Lager - Winter"
+    },
+    {
+        "beer_style_id": 269,
+        "beer_style": "Lambic - Framboise"
+    },
+    {
+        "beer_style_id": 267,
+        "beer_style": "Lambic - Fruit"
+    },
+    {
+        "beer_style_id": 268,
+        "beer_style": "Lambic - Kriek"
+    },
+    {
+        "beer_style_id": 75,
+        "beer_style": "Lambic - Other"
+    },
+    {
+        "beer_style_id": 120,
+        "beer_style": "Maibock/Helles Bock"
+    },
+    {
+        "beer_style_id": 127,
+        "beer_style": "Malt Beer"
+    },
+    {
+        "beer_style_id": 107,
+        "beer_style": "Malt Liquor "
+    },
+    {
+        "beer_style_id": 150,
+        "beer_style": "Mead"
+    },
+    {
+        "beer_style_id": 214,
+        "beer_style": "Melomel"
+    },
+    {
+        "beer_style_id": 255,
+        "beer_style": "Mumme"
+    },
+    {
+        "beer_style_id": 35,
+        "beer_style": "Märzen"
+    },
+    {
+        "beer_style_id": 33,
+        "beer_style": "Non-Alcoholic"
+    },
+    {
+        "beer_style_id": 36,
+        "beer_style": "Old Ale"
+    },
+    {
+        "beer_style_id": 99,
+        "beer_style": "Pale Ale - American"
+    },
+    {
+        "beer_style_id": 244,
+        "beer_style": "Pale Ale - Australian"
+    },
+    {
+        "beer_style_id": 9,
+        "beer_style": "Pale Ale - Belgian"
+    },
+    {
+        "beer_style_id": 203,
+        "beer_style": "Pale Ale - English"
+    },
+    {
+        "beer_style_id": 259,
+        "beer_style": "Pale Ale - International"
+    },
+    {
+        "beer_style_id": 225,
+        "beer_style": "Pale Ale - New Zealand"
+    },
+    {
+        "beer_style_id": 5,
+        "beer_style": "Pale Wheat Ale - American"
+    },
+    {
+        "beer_style_id": 133,
+        "beer_style": "Patersbier"
+    },
+    {
+        "beer_style_id": 215,
+        "beer_style": "Perry"
+    },
+    {
+        "beer_style_id": 207,
+        "beer_style": "Pilsner - Czech"
+    },
+    {
+        "beer_style_id": 104,
+        "beer_style": "Pilsner - German"
+    },
+    {
+        "beer_style_id": 156,
+        "beer_style": "Pilsner - Imperial / Double"
+    },
+    {
+        "beer_style_id": 39,
+        "beer_style": "Pilsner - Other"
+    },
+    {
+        "beer_style_id": 131,
+        "beer_style": "Porter - American"
+    },
+    {
+        "beer_style_id": 6,
+        "beer_style": "Porter - Baltic"
+    },
+    {
+        "beer_style_id": 238,
+        "beer_style": "Porter - English"
+    },
+    {
+        "beer_style_id": 165,
+        "beer_style": "Porter - Imperial / Double"
+    },
+    {
+        "beer_style_id": 40,
+        "beer_style": "Porter - Other"
+    },
+    {
+        "beer_style_id": 201,
+        "beer_style": "Pumpkin / Yam Beer"
+    },
+    {
+        "beer_style_id": 216,
+        "beer_style": "Pyment"
+    },
+    {
+        "beer_style_id": 224,
+        "beer_style": "Rauchbier"
+    },
+    {
+        "beer_style_id": 60,
+        "beer_style": "Red Ale - American Amber / Red"
+    },
+    {
+        "beer_style_id": 111,
+        "beer_style": "Red Ale - Imperial / Double"
+    },
+    {
+        "beer_style_id": 29,
+        "beer_style": "Red Ale - Irish"
+    },
+    {
+        "beer_style_id": 274,
+        "beer_style": "Red Ale - Other"
+    },
+    {
+        "beer_style_id": 245,
+        "beer_style": "Roggenbier"
+    },
+    {
+        "beer_style_id": 232,
+        "beer_style": "Root Beer"
+    },
+    {
+        "beer_style_id": 68,
+        "beer_style": "Rye Beer"
+    },
+    {
+        "beer_style_id": 277,
+        "beer_style": "Rye IPA"
+    },
+    {
+        "beer_style_id": 175,
+        "beer_style": "Sahti"
+    },
+    {
+        "beer_style_id": 42,
+        "beer_style": "Saison / Farmhouse Ale"
+    },
+    {
+        "beer_style_id": 43,
+        "beer_style": "Schwarzbier"
+    },
+    {
+        "beer_style_id": 218,
+        "beer_style": "Scotch Ale / Wee Heavy"
+    },
+    {
+        "beer_style_id": 44,
+        "beer_style": "Scottish Ale"
+    },
+    {
+        "beer_style_id": 217,
+        "beer_style": "Scottish Export Ale"
+    },
+    {
+        "beer_style_id": 241,
+        "beer_style": "Shandy / Radler"
+    },
+    {
+        "beer_style_id": 237,
+        "beer_style": "Smoked Beer"
+    },
+    {
+        "beer_style_id": 70,
+        "beer_style": "Sour - Ale"
+    },
+    {
+        "beer_style_id": 71,
+        "beer_style": "Sour - American Wild Ale"
+    },
+    {
+        "beer_style_id": 171,
+        "beer_style": "Sour - Berliner Weisse"
+    },
+    {
+        "beer_style_id": 271,
+        "beer_style": "Sour - Farmhouse IPA"
+    },
+    {
+        "beer_style_id": 208,
+        "beer_style": "Sour - Flanders Oud Bruin"
+    },
+    {
+        "beer_style_id": 179,
+        "beer_style": "Sour - Flanders Red Ale"
+    },
+    {
+        "beer_style_id": 81,
+        "beer_style": "Sour - Gose"
+    },
+    {
+        "beer_style_id": 221,
+        "beer_style": "Sour - Gueuze"
+    },
+    {
+        "beer_style_id": 177,
+        "beer_style": "Specialty Grain"
+    },
+    {
+        "beer_style_id": 26,
+        "beer_style": "Spiced / Herbed Beer"
+    },
+    {
+        "beer_style_id": 163,
+        "beer_style": "Stout - American"
+    },
+    {
+        "beer_style_id": 86,
+        "beer_style": "Stout - American Imperial / Double"
+    },
+    {
+        "beer_style_id": 191,
+        "beer_style": "Stout - Foreign / Export"
+    },
+    {
+        "beer_style_id": 250,
+        "beer_style": "Stout - Imperial / Double"
+    },
+    {
+        "beer_style_id": 272,
+        "beer_style": "Stout - Imperial Milk / Sweet"
+    },
+    {
+        "beer_style_id": 140,
+        "beer_style": "Stout - Imperial Oatmeal"
+    },
+    {
+        "beer_style_id": 152,
+        "beer_style": "Stout - Irish Dry"
+    },
+    {
+        "beer_style_id": 231,
+        "beer_style": "Stout - Milk / Sweet"
+    },
+    {
+        "beer_style_id": 34,
+        "beer_style": "Stout - Oatmeal"
+    },
+    {
+        "beer_style_id": 47,
+        "beer_style": "Stout - Other"
+    },
+    {
+        "beer_style_id": 173,
+        "beer_style": "Stout - Oyster"
+    },
+    {
+        "beer_style_id": 41,
+        "beer_style": "Stout - Russian Imperial"
+    },
+    {
+        "beer_style_id": 119,
+        "beer_style": "Strong Ale - American"
+    },
+    {
+        "beer_style_id": 199,
+        "beer_style": "Strong Ale - English"
+    },
+    {
+        "beer_style_id": 258,
+        "beer_style": "Traditional Ale"
+    },
+    {
+        "beer_style_id": 51,
+        "beer_style": "Weizenbock"
+    },
+    {
+        "beer_style_id": 87,
+        "beer_style": "Wheat Wine"
+    },
+    {
+        "beer_style_id": 52,
+        "beer_style": "Winter Ale"
+    },
+    {
+        "beer_style_id": 130,
+        "beer_style": "Winter Warmer"
+    },
+    {
+        "beer_style_id": 83,
+        "beer_style": "Witbier"
+    },
+    {
+        "beer_style_id": 254,
+        "beer_style": "Zoigl"
+    }
+]
