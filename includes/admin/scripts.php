@@ -7,9 +7,12 @@ add_action( 'admin_enqueue_scripts', __NAMESPACE__ . '\enqueue_styles' );
 add_action( 'admin_footer', __NAMESPACE__ . '\admin_footer_style' );
 
 function register_styles() {
+
+	$version = apply_filters( 'wp-bottle-share-font-awesome-version', '4.7.0' );
+
 	wp_register_style(
 		'wp-bottle-share-font-awesome',
-		'https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
+		esc_url( "https://netdna.bootstrapcdn.com/font-awesome/{$version}/css/font-awesome.min.css" )
 	);
 }
 
