@@ -2,14 +2,13 @@
 
 namespace WP_Bottle_Share\CampTix;
 
-if ( function_exists( 'camptix_register_addon' ) ) {
+add_filter( 'camptix_default_addons', __NAMESPACE__ . '\add_default_addons' );
 
-	$addons_files = array(
-		// 'field-untappd-user-name.php',
-		'field-favorite-beer-style.php',
-	);
+function add_default_addons( $addons ) {
 
-	foreach( $addons_files as $addon_file ) {
-		require_once WP_BOTTLE_SHARE_PATH . 'includes/camptix/addons/' . $addon_file;
+	if ( ! isset( $addons['require-login'] ) ) {
+		$addons['require-login'] = $GLOBALS['camptix']->get_default_addon_path( 'require-login.php' );
 	}
+
+	return $addons;
 }
