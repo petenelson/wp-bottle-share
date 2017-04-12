@@ -5,7 +5,7 @@ namespace WP_Bottle_Share\CampTix;
 if ( function_exists( 'camptix_register_addon' ) ) {
 
 	$addons_files = array(
-		'field-untappd-user-name.php',
+		// 'field-untappd-user-name.php',
 		'field-favorite-beer-style.php',
 	);
 
