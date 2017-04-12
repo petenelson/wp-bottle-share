@@ -40,12 +40,20 @@ if ( ! defined( 'WP_BOTTLE_SHARE_BASENAME' ) ) {
 	define( 'WP_BOTTLE_SHARE_BASENAME', plugin_basename( WP_BOTTLE_SHARE_FILE ) );
 }
 
-require_once WP_BOTTLE_SHARE_PATH . 'includes/admin/settings.php';
-require_once WP_BOTTLE_SHARE_PATH . 'includes/admin/scripts.php';
-require_once WP_BOTTLE_SHARE_PATH . 'includes/admin/untappd.php';
-require_once WP_BOTTLE_SHARE_PATH . 'includes/admin/user-profile.php';
-require_once WP_BOTTLE_SHARE_PATH . 'includes/untappd/api.php';
-require_once WP_BOTTLE_SHARE_PATH . 'includes/untappd/oauth.php';
-require_once WP_BOTTLE_SHARE_PATH . 'includes/untappd/user.php';
-require_once WP_BOTTLE_SHARE_PATH . 'includes/post-type/bottle-share.php';
-require_once WP_BOTTLE_SHARE_PATH . 'includes/meta-box/bottle-share.php';
+$requires = array(
+	'admin/settings.php',
+	'admin/scripts.php',
+	'admin/untappd.php',
+	'admin/user-profile.php',
+	'untappd/api.php',
+	'untappd/oauth.php',
+	'untappd/user.php',
+	'untappd/beer.php',
+	'post-type/bottle-share.php',
+	'meta-box/bottle-share.php',
+	'camptix/camptix.php',
+);
+
+foreach( $requires as $require ) {
+	require_once WP_BOTTLE_SHARE_PATH . 'includes/' . $require;
+}
