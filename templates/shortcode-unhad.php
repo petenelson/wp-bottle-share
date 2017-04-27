@@ -24,7 +24,8 @@ if ( ! empty( $venue_url ) && wp_verify_nonce( $nonce, 'get-unhad-beers' ) ) {
 		if ( ! empty( $url_parts ) && ! empty( $url_parts['path'] ) ) {
 
 			// Get the venue ID from the last item in the path.
-			$venue_id = absint( end( explode( '/', $url_parts['path'] ) ) );
+			$parts = explode( '/', $url_parts['path'] );
+			$venue_id = absint( end( $parts ) );
 
 			if ( ! empty( $venue_id ) ) {
 				$beers = \WP_Bottle_Share\Untappd\API\Venue\get_unhad_beers( $venue_id, get_current_user_id() );
