@@ -7,7 +7,7 @@ add_action( 'save_post', __NAMESPACE__ . '\save_meta_box' );
 
 function add_meta_box() {
 
-	\add_meta_box( $id,
+	\add_meta_box( 'wp-bottle-share',
 		esc_html__( 'Details', 'wp-bottle-share' ),
 		__NAMESPACE__ . '\display_meta_box',
 		\WP_Bottle_Share\Post_Type\Bottle_Share\get_post_type()
