@@ -68,7 +68,7 @@ if ( ! empty( $venue_url ) && wp_verify_nonce( $nonce, 'get-unhad-beers' ) ) {
 								<span class="wpbs-unhad-by-brewery">
 									<?php
 									// Translators: Link to brewery in list of checkins.
-									echo wp_kses_post( sprintf( __( 'by <a href="%1$ss">%2$ss</a>', 'wp-bottle-share' ),
+									echo wp_kses_post( sprintf( __( 'by <a href="%1$ss">%2$s</a>', 'wp-bottle-share' ),
 										esc_url( $beer->brewery->url ),
 										esc_html( $beer->brewery->brewery_name )
 									) ); ?>
