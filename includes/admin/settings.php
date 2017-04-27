@@ -78,7 +78,6 @@ function input_field( $args ) {
 
 	$name      = $args['name'];
 	$maxlength = $args['maxlength'];
-	$size      = $args['size'];
 	$after     = $args['after'];
 	$type      = $args['type'];
 	$min       = $args['min'];
