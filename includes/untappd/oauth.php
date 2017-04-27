@@ -23,7 +23,7 @@ function get_oauth_page() {
  * @return void
  */
 function register_oauth_endpoint() {
-	add_rewrite_rule( '^' . get_oauth_page() . '/?$', 'index.php?_untappd_oauth=1', top );
+	add_rewrite_rule( '^' . get_oauth_page() . '/?$', 'index.php?_untappd_oauth=1', 'top' );
 }
 
 /**
