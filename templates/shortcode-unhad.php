@@ -10,9 +10,12 @@ $nonce = filter_input( INPUT_GET, '_wpnonce', FILTER_SANITIZE_STRING );
 $beers = array();
 $venue_id = 0;
 
-if ( ! empty( $venue_url ) && wp_verify_nonce( $nonce, 'get-unhad-beers' ) && is_user_logged_in() ) {
-
+if ( is_user_logged_in() ) {
 	$untappd_user = \WP_Bottle_Share\Untappd\API\get_untappd_user();
+}
+
+if ( ! empty( $venue_url ) && wp_verify_nonce( $nonce, 'get-unhad-beers' ) ) {
+
 	if ( ! empty( $untappd_user ) ) {
 
 		// Get the venue ID from the URL.
