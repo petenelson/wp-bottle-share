@@ -2,14 +2,13 @@
 
 namespace WP_Bottle_Share\Untappd\API;
 
-// https://untappd.com/api/docs
-
 /**
  * Gets the Untappd API endpoint
  *
  * @return string
  */
 function get_endpoint() {
+	// https://untappd.com/api/docs here.
 	return apply_filters( 'wp-bottle-share-untappd-endpoint', 'https://api.untappd.com/v4' );
 }
 
@@ -79,7 +78,7 @@ function get_client_secret() {
 function untappd_remote( $action, $user_id, $method = 'GET', $args = array() ) {
 
 	$args = wp_parse_args( $args, array(
-		'timeout' => 5,
+		'timeout' => 10,
 		)
 	);
 
@@ -89,7 +88,7 @@ function untappd_remote( $action, $user_id, $method = 'GET', $args = array() ) {
 	// Add any query args.
 	if ( ! empty( $args['query'] ) && is_array( $args['query'] ) ) {
 
-		foreach( $args['query'] as $key => $value ) {
+		foreach ( $args['query'] as $key => $value ) {
 			$url = add_query_arg( $key, rawurlencode( $value ), $url );
 		}
 		unset( $args['query'] );
@@ -106,13 +105,13 @@ function untappd_remote( $action, $user_id, $method = 'GET', $args = array() ) {
 		case 'POST':
 			$response = wp_remote_post( $url, $args );
 			break;
-		
+
 		default:
 			$response = wp_remote_get( $url, $args );
 			break;
 	}
 
-	// Make sure the request succeeded
+	// Make sure the request succeeded.
 	if ( ! is_wp_error( $response ) && 200 === absint( wp_remote_retrieve_response_code( $response ) ) ) {
 
 		$body = wp_remote_retrieve_body( $response );
@@ -120,7 +119,6 @@ function untappd_remote( $action, $user_id, $method = 'GET', $args = array() ) {
 		if ( ! empty( $body ) ) {
 			// Make sure this is a valid response before caching and
 			// returning the response.
-
 			$o = json_decode( $body );
 
 			if ( ! empty( $o ) && ! empty( $o->meta ) && ! empty( $o->meta->code ) && 200 === $o->meta->code && ! empty( $o->response ) ) {
@@ -149,6 +147,7 @@ function untappd_remote_post( $action, $user_id, $args = array() ) {
 /**
  * Gets the access token for the current user or the supplied user ID.
  *
+ * @param int $user_id Optional WP user ID.
  * @return string
  */
 function get_access_token( $user_id = 0 ) {
@@ -167,7 +166,7 @@ function get_access_token( $user_id = 0 ) {
 /**
  * Builds a cache key based on the URL and args.
  *
- * @param  string $url  Untappd API URL.  
+ * @param  string $url  Untappd API URL.
  * @param  array  $args Additional args for wp_remote_get().
  * @return string
  */
